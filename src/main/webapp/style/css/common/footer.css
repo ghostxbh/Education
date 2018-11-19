@@ -1,0 +1,19 @@
+.footer {
+	width: 100%;
+	min-width: 1200px;
+	background: #5E6063;
+}
+
+.footer-content {
+	min-width: 1200px;
+	wifth: 1200px;
+	margin: 0 auto;
+}
+
+.footer-content>p {
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	font-family: 微软雅黑;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.senoops.dao.VedioMapper" >
+  
+    <resultMap type="Section" id="sectionResult"> 
+        <id column="id" property="id" /> 
+        <result column="course_id" property="courseID" /> 
+        <result column="section_name" property="sectionName" /> 
+        <collection property="list" ofType="Video" > 
+        	<id column="vid" property="id" /> 
+      		<result column="section_id" property="sectionId" /> 
+      		<result column="video_url" property="videoUrl" /> 
+      		<result column="cover_url" property="coverUrl" /> 
+      		<result column="insert_time" property="insertTime" /> 
+      		<result column="video_name" property="videoName" /> 
+        </collection>
+    </resultMap> 
+	<select id="getSections" parameterType="Integer"  resultMap="sectionResult"> 
+        SELECT s.id, s.course_id , s.section_name, v.id as vid, v.section_id,v.video_name,
+         v.video_url, v.cover_url, v.insert_time FROM edu_section s LEFT OUTER JOIN edu_video v 
+         ON s.id=v.section_id   WHERE s.course_id=#{id} ;
+    </select>
+
+</mapper>

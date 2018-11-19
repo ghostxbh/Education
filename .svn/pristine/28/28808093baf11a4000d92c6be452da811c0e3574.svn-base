@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	 <settings>
+      <!-- 打印查询语句  -->
+        <setting name="logImpl" value="LOG4J2" />
+    </settings> 
+    
+    <!-- 别名 -->
+    <typeAliases>    	
+    	<typeAlias alias="AccountBookAux" type="cn.yunzhf.accounting.accountbook.entity.vo.AccountBookAux"/>
+    	<typeAlias alias="UzBalanceAux" type="cn.yunzhf.accounting.accountbook.entity.vo.UzBalanceAux"/>
+    </typeAliases>
+    
+    <!-- 配置分页插件 -->
+    <plugins>
+	    <plugin interceptor="com.github.pagehelper.PageHelper">
+	    	<!-- 方言 -->
+	        <property name="dialect" value="mysql"/>
+	        <!-- 该参数默认为false -->
+	        <!-- 设置为true时，使用RowBounds分页会进行count查询 -->
+	        <property name="rowBoundsWithCount" value="true"/>
+	    </plugin>
+    </plugins>
+    
+    
+</configuration>

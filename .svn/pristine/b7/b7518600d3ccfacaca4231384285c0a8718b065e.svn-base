@@ -1,0 +1,706 @@
+package com.senoops.controller;
+
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import org.aspectj.lang.annotation.RequiredTypes;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.senoops.model.User;
+import com.senoops.service.CourseService;
+import com.senoops.service.SelectedcourseService;
+import com.senoops.service.UserService;
+
+import com.senoops.model.Course;
+import com.senoops.model.Selectedcourse;
+/**
+ * @author luoxiao
+ * @date 2017年1月14日
+ */
+
+@Controller
+@RequiredTypes("/")
+public class MainController {
+
+	@Autowired
+	private UserService userService;
+	@Autowired
+	private CourseService courseService;
+	@Autowired
+	private SelectedcourseService selectedcourseService;
+	/**
+	 * 跳转首页
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public ModelAndView toIndex(HttpSession session) {
+		ModelAndView mv = new ModelAndView();
+		try {
+			List<Course> courses= courseService.selectAll();	
+			System.out.println(courses);
+			mv.setViewName("newindex");
+			mv.addObject("courses", courses);			
+		} catch (Exception e) {
+			mv.setViewName("error/error");
+			e.printStackTrace();
+		}
+				return mv;		
+	}
+
+	/**
+	 * 注册
+	 * 
+	 * @param user
+	 * @return
+	 */
+	@RequestMapping(value = "/regist", method = RequestMethod.POST)
+	public ModelAndView save(User user, HttpSession session) {
+		ModelAndView mv = new ModelAndView();
+		try {
+			userService.save(user);
+			Integer id = user.getId();
+			System.out.println(id);
+			/* UserRole userRole = userRoleService.selectByUserId(id); */
+		
+			
+			 
+			
+			mv=toIndex(session);
+		} catch (Exception e) {
+			mv.setViewName("error/registError");
+			e.printStackTrace();
+		}
+		session.setAttribute("loginUser", userService.selectById(user.getId()));
+		
+		return mv;
+	}
+	/**
+	 * 跳转详情页面
+	 * @return
+	 */
+	@RequestMapping(value = "/getdetail", method = RequestMethod.GET)
+	public String getdetail(){
+		return "/detail";
+	}
+	
+	/**
+	 * 跳转会计详情页面
+	 * @return
+	 */
+	@RequestMapping(value = "/getdetailother", method = RequestMethod.GET)
+	public String getdetailother(){
+		return "/detialother";
+	}
+	
+	/**
+	 * 跳转到会计建筑视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/buildcost", method = RequestMethod.GET)
+	public String buildcost(Model model) {
+		return "/html/buildcost";
+	}
+	
+	
+	/**
+	 * 跳转到税收视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/tax", method = RequestMethod.GET)
+	public String tax(Model model) {
+		return "/html/tax";
+	}
+	
+	
+	/**
+	 * 跳转到注会视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/CPA", method = RequestMethod.GET)
+	public String CPA(Model model) {
+		return "/html/CPA";
+	}
+	
+	/**
+	 * 跳转到审计视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/audit", method = RequestMethod.GET)
+	public String audit(Model model) {
+		return "/html/audit";
+	}
+	
+	/**
+	 * 跳转到税收视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/getauti", method = RequestMethod.GET)
+	public String getauti(Model model) {
+		return "/html/getauti";
+	}
+	/**
+	 * 跳转到会计基础视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/kuaijijichu", method = RequestMethod.GET)
+	public String kuaijijichu(Model model) {
+		return "/html/kuaijijichu";
+	}
+	
+	/**
+	 * 跳转到做账实操(数码商贸)视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/zuozhangshichao", method = RequestMethod.GET)
+	public String zuozhangshichao(Model model) {
+		return "/html/zuozhangshichao";
+	}
+	
+
+	/**
+	 * 跳转到出纳视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/chuna", method = RequestMethod.GET)
+	public String chuna(Model model) {
+		return "/html/chuna";
+	}
+	
+	/**
+	 * 跳转到会计和税法视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/kuaijiheshuishou", method = RequestMethod.GET)
+	public String kuaijiheshuishou(Model model) {
+		return "/html/kuaijiheshuishou";
+	}
+	
+	
+
+	/**
+	 * 跳转到会计和税法视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/lawtwo", method = RequestMethod.GET)
+	public String lawtwo(Model model) {
+		return "/html/lawtwo";
+	}
+	/**
+	 * 跳转到会计和税法视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/lawthree", method = RequestMethod.GET)
+	public String lawthree(Model model) {
+		return "/html/lawthree";
+	}
+	/**
+	 * 跳转到会计和税法视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/lawfour", method = RequestMethod.GET)
+	public String lawfour(Model model) {
+		return "/html/lawfour";
+	}
+	
+	
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/one", method = RequestMethod.GET)
+	public String one(Model model) {
+		return "/html/one";
+	}
+	/**
+	 * 跳转到出纳视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/two", method = RequestMethod.GET)
+	public String two(Model model) {
+		return "/html/two";
+	}
+	
+	
+
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/three", method = RequestMethod.GET)
+	public String three(Model model) {
+		return "/html/three";
+	}
+	
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/four", method = RequestMethod.GET)
+	public String four(Model model) {
+		return "/html/four";
+	}
+	
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/five", method = RequestMethod.GET)
+	public String five(Model model) {
+		return "/html/five";
+	}
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/six", method = RequestMethod.GET)
+	public String six(Model model) {
+		return "/html/six";
+	}
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/seven", method = RequestMethod.GET)
+	public String seven(Model model) {
+		return "/html/seven";
+	}
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/eight", method = RequestMethod.GET)
+	public String eight(Model model) {
+		return "/html/eight";
+	}
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/nine", method = RequestMethod.GET)
+	public String nine(Model model) {
+		return "/html/nine";
+	}
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/ten", method = RequestMethod.GET)
+	public String ten(Model model) {
+		return "/html/ten";
+	}
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/elem", method = RequestMethod.GET)
+	public String elem(Model model) {
+		return "/html/elem";
+	}
+	
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/twen", method = RequestMethod.GET)
+	public String twen(Model model) {
+		return "/html/twen";
+	}
+
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/threeteen", method = RequestMethod.GET)
+	public String threeteen(Model model) {
+		return "/html/threeteen";
+	}
+	/**
+	 * 跳转到one视频页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/fiveteen", method = RequestMethod.GET)
+	public String fiveteen(Model model) {
+		return "/html/fiveteen";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibook", method = RequestMethod.GET)
+	public String autibook(Model model) {
+		return "/html/autibookoone";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibooktwo", method = RequestMethod.GET)
+	public String autibooktwo(Model model) {
+		return "/html/autibooktwo";
+	}
+	
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibookthree", method = RequestMethod.GET)
+	public String autibookthree(Model model) {
+		return "/html/autibookthree";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibookfour", method = RequestMethod.GET)
+	public String autibookfour(Model model) {
+		return "/html/autibookfour";
+	}
+	
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibookfive", method = RequestMethod.GET)
+	public String autibookfive(Model model) {
+		return "/html/autibookfive";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibooksix", method = RequestMethod.GET)
+	public String autibooksix(Model model) {
+		return "/html/autibooksix";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibookseven", method = RequestMethod.GET)
+	public String autibookseven(Model model) {
+		return "/html/autibookseven";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibookeight", method = RequestMethod.GET)
+	public String autibookeight(Model model) {
+		return "/html/autibookeight";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibooknine", method = RequestMethod.GET)
+	public String autibooknine(Model model) {
+		return "/html/autibooknine";
+	}
+	
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibookelen", method = RequestMethod.GET)
+	public String autibookelen(Model model) {
+		return "/html/autibookelen";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibooktwen", method = RequestMethod.GET)
+	public String autibooktwen(Model model) {
+		return "/html/autibooktwen";
+	}
+	
+	
+	
+	
+	
+	
+	
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/lawone", method = RequestMethod.GET)
+	public String lawone(Model model) {
+		return "/html/law";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/Accounting", method = RequestMethod.GET)
+	public String Accounting(Model model) {
+		return "/html/Accounting";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/law", method = RequestMethod.GET)
+	public String law(Model model) {
+		return "/html/law";
+	}
+	/**
+	 * 跳转到书页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/autibookten", method = RequestMethod.GET)
+	public String autibookten(Model model) {
+		return "/html/autibookten";
+	}
+	/**
+	 * 跳转到detail页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/coursedetail", method = RequestMethod.GET)
+	public String getdetail(int courseid, HttpSession session, HttpServletRequest request,
+			HttpServletResponse response, Model model) {
+		Course course = courseService.selectByPrimaryKey(courseid);
+		session.setAttribute("course", course);
+		if(session.getAttribute("loginUser")==null)
+			session.setAttribute("isSelect", false);
+		else 
+		{
+			/**报错*/
+			/*User user = (User) request.getSession().getAttribute("loginUser");
+			Selectedcourse s = new Selectedcourse();
+			s.setCourseid(courseid);
+			s.setUserid(user.getId());
+			boolean res=selectedcourseService.selectedcourseIsExist(s);
+			if(res)
+				session.setAttribute("isSelect", true);
+			else
+				session.setAttribute("isSelect", false);*/
+		}
+		return "coursedetail";
+	}
+
+	/**
+	 * deleteCourse  
+	 * 
+	 * @param session
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value = "/deleteCourse", method = RequestMethod.POST)
+	public String deleteCourse(Selectedcourse user, HttpServletRequest request,
+			HttpServletResponse response) {
+
+		
+		
+		boolean b=selectedcourseService.delete(user);
+		String result = b ? "true" : "false";
+				
+		
+		
+	return result;
+	}
+	/**
+	 *   insertCourse
+	 * 
+	 * @param session
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value = "/insertCourse", method = RequestMethod.POST)
+	public String insertCourse(Selectedcourse user, HttpServletRequest request,
+			HttpServletResponse response) {
+
+		
+		
+		int b=selectedcourseService.save(user);
+		String result = b>0 ? "true" : "false";
+				
+		
+		
+	return result;
+	}
+	/**
+	 * 跳转到coursevideo页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/course/video", method = RequestMethod.GET)
+	public String playvideo(String courseid, HttpSession session, 
+			Model model) {
+		
+		session.setAttribute("courseid", courseid);
+		return "coursevideo";
+	}
+	/**
+	 * 跳转到注册页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
+	public String registPage(Model model) {
+		return "regist";
+	}
+	
+	/**
+	 * 后台首页
+	 * @return
+	 */
+	
+
+	/**
+	 * 跳转到登录页面
+	 * 
+	 * @return
+	 */
+	@RequestMapping(value = "/loginer", method = RequestMethod.GET)
+	public String loginPage(Model model) {
+		return "login";
+	}
+	/**
+	 * 登录功能
+	 * 
+	 * @param user
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public ModelAndView login(User user, HttpSession session, Model model) {
+		
+		
+		User loginUser = userService.selectByUsername(user.getUsername());
+		session.setAttribute("loginUser", loginUser);
+		//System.out.println(loginUser);
+		 return toIndex( session) ;
+	}
+	/**
+	 * mycourse
+	 * 
+	 * @param user
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "/mylearn", method = RequestMethod.GET)
+	public ModelAndView mylearn(HttpServletRequest request,
+			HttpServletResponse response) {
+		ModelAndView mv = new ModelAndView();
+		try {
+			
+			User user = (User) request.getSession().getAttribute("loginUser");
+			
+			List<Selectedcourse> selectedcourses= selectedcourseService.selectcourseById(user.getId());
+			List<Course> courses = new ArrayList<Course>();
+			for (Selectedcourse c : selectedcourses) {
+				courses.add(courseService.selectByPrimaryKey(c.getCourseid()));
+			}
+			
+			
+		
+			mv.setViewName("/mylearn");
+			mv.addObject("courses", courses);			
+		} catch (Exception e) {
+			mv.setViewName("error/error");
+			e.printStackTrace();
+		}
+				return mv;		
+	}
+
+	/**
+	 * 登出，清除session
+	 * 
+	 * @param session
+	 * @return
+	 */
+	@RequestMapping(value = "/user/logOut")
+	public String logOut(HttpSession session) {
+		session.removeAttribute("loginUser");
+		return "redirect:/";
+	}
+
+	/**
+	 * ajax 检查用户名是否可用
+	 * 
+	 * @param username
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value = "/checkUser", method = RequestMethod.GET)
+	public String checkUser(String username, HttpServletRequest resqust,
+			HttpServletResponse response) {
+		Boolean b = userService.userIsExist(username);
+		String result = b ? "true" : "false";
+		return result;
+	}
+
+	/**
+	 * ajax验证用户名密码
+	 * 
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value = "/validatePassword")
+	public String validateUser(String username) {
+		User _user = userService.selectByUsername(username);
+		String _password = _user.getPassword();
+		if (_password == null) {
+			return "";
+		} else {
+			return _password;
+		}
+	}
+}

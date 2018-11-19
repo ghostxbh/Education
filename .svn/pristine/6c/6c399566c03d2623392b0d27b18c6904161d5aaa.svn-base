@@ -1,0 +1,1155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+ <link href="/Onlineducation/style/css/newindex.css" rel="stylesheet">
+ <script src="/Onlineducation/style/js/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="new-top">
+    <div class="new-top-content">
+       <div id="header" > 
+                <div class="header-left"><a href="http://www.jkj521.cn/"><img src="/Onlineducation/style/images/images/logo-jkj.png"/></a></div>
+                <ul class="header-ul-content">
+                     <li><a href="/Onlineducation/">首页</a></li>
+                    <li><a href="javascript:;">所有课程</a></li>
+                    <li><a href="javascript:;">常见问题</a></li>
+                    <li><a href="">关于</a></li>
+                    <li><a href="http://www.jkj521.cn">优账云官网</a></li>
+                    <li class="move"></li>
+                <div class="header-right">
+                    <a href="http://www.jkj521.cn/AccountingOnline/page/reg">注册</a>
+                    <a href="http://www.jkj521.cn/AccountingOnline/" class="active">登录</a>
+                </div>
+                 </ul>
+                
+         </div> 
+       </div>
+     </div>
+     <div class="top-div clearfix">
+        <div class="top clearfix"></div>
+    </div>
+<!--banner-->
+<!-- <div class="content3">
+    <div class="main-icon">
+         <img src="../images/banner3.jpg"/> 
+    </div>
+</div> -->
+
+<!--main-content-->
+<div class="body_bg03">
+<div class="main-icon" id="main-top">
+   <!--  <div class="course-introduce clearfix" id="main-top">
+        <ul>
+		      <li>
+			   <h4><span>特色通关班</span></h4>
+			   <p>经典班次科学搭配  专家答疑事半功倍<br>适合有一定基础的考生<br><em>￥998/1年</em></p>
+			 </li>
+		     <li>
+			    <h4><span>精品提分班</span></h4>
+			    <p>云数据智能系统 因材施教精准提分<br>适合基础薄弱的考生<br><em>￥998/1年</em></p>
+			</li>
+		    <li>
+			  <h4><span>定制上岗班</span></h4>
+			  <p>考证+实操+事务所推荐就业<br>适合应届生/有转行意向的考生<br><em>￥998/1年</em></p>
+			</li>
+		     <li class="none">
+			    <h4><span>VIP签约特训计划</span></h4>
+			    <p>打造“2+3”CPA取证计划 不过退费<br>适合想要快速通关考生<br><em>每周四0:00准时涨价100元</em></p>
+			  </li>
+	      </ul>
+	  </div> -->
+<!--  注会-->
+  <div class="course-list clearfix" id="float01">
+						<div class="tit">
+		                    <h4>注会--联报课程<i></i></h4>
+		                    <ul>
+		                    	<li class="on">课程</li>
+		                    	</ul>
+		                </div>
+		                <div class="con clearfix" style="display: block;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic ">
+				                       <a href="/Onlineducation/getdetail" title="零基础学实操" target="_blank">
+				                          <img src="/Onlineducation/style/images/images/zero.jpg" alt="零基础学实操">
+				                       </a>
+				                    </div>
+                                    <h4>零基础学实操</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                                 <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic">
+				                       <a href="/Onlineducation/getdetailother" title="老会计手把手做账之会计基础" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/auti.jpg" alt="老会计手把手做账之会计基础">
+				                       </a>
+				                     </div>
+                                    <h4>老会计手把手做账之会计基础</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                               <!--  <a href="javascript:;" target="_self"  class="chkName-buy coursechk addShopCartCourse">加入购物车</a> -->
+		                               <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                            <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic">
+					                           <a href="/Onlineducation/buildcost" title="文化事业建设费申报" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/build.jpg" alt="文化事业建设费申报"></a>
+					                      </div>
+	                                      <h4>文化事业建设费申报</h4>
+										    <div class="price_wrap clearfix">
+												<div class="price" >免费
+												</div>
+												<!-- <a href="javascript:;" target="_self" class="chkName-buy coursechk addShopCartCourse">加入购物车</a> -->
+											<a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+										 <div class="pic ">
+										 <a href="/Onlineducation/tax" title="税法总论" target="_blank">
+										 <img src="/Onlineducation/style/images/images/cpa.jpg" alt="税法总论"></a></div>
+										 <h4>税法总论</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+									     </div>
+									</li>
+					                <li class="none" style="display:none;">
+				                            <div class="pic "><a href="/Onlineducation/getdetail" title="注会--联报课程-定制上岗班（含就业）" target="_blank">
+				                               <img src="/Onlineducation/style/images/images/bookphoto1.jpg" alt="注会--联报课程-定制上岗班（含就业）"></a>
+				                            </div>
+                                            <h4>注会--联报课程-定制上岗班（含就业）</h4>
+                                            <div class="price_wrap clearfix">
+									         <div class="price">免费</div>
+										      <!--  <a href="javascript:void(0)" target="_self" class="chkName-buy coursechk addShopCartCourse">加入购物车</a> -->
+										    <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                            <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+										    </div>
+									</li>
+					                <li class="none" style="display:none;">
+				                            <div class="pic "><a href="/Onlineducation/getauti" title="注会--联报课程-定制上岗班（不含就业）" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages2.png" alt="注会--联报课程-定制上岗班（不含就业）"></a>
+				                            </div>
+											<h4>注会--联报课程-定制上岗班（不含就业）</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											       <!-- <a href="javascript:void(0)" target="_self" class="chkName-buy coursechk addShopCartCourse">加入购物车</a> -->
+												<a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                            <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									 
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(6)<i></i></a>
+								</div>
+		                </div>
+
+<!--会计  -->
+  <div class="course-list clearfix">
+						<div class="tit">
+		                    <h4>会计<i></i></h4>
+		                    <ul>
+		                    	<li class="on">课程</li>
+		                    	<li>图书</li>
+		                    	<li>题库</li>
+		                   </ul>
+		                </div>
+		                <div class="con clearfix" style="display: block;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic ">
+				                       <a href="/Onlineducation/CPA" title="2018-19年会计师备考营（初级，中级，注会）" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/xueyuan1.png" alt="2018-19年会计师备考营（初级，中级，注会）">
+				                       </a>
+				                    </div>
+                                    <h4>2018-19年会计师备考营（初级，中级，注会）</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                               <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic">
+				                       <a href="/Onlineducation/audit" title="2018注册会计师《审计》" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/xueyuan2.png" alt="2018注册会计师《审计》">
+				                       </a>
+				                     </div>
+                                    <h4>2018注册会计师《审计》</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                              <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic">
+					                           <a href="/Onlineducation/zuozhangshichao" title="会计做账实操(商业数码商贸)" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/xueyuan3.png" alt="会计做账实操(商业数码商贸)"></a>
+					                      </div>
+	                                      <h4>会计做账实操(商业数码商贸)</h4>
+										    <div class="price_wrap clearfix">
+												<div class="price" >免费
+												</div>
+											<a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                         
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+										 <div class="pic ">
+										 <a href="/Onlineducation/chuna" title="出纳业务操作实务" target="_blank">
+										 <img src="/Onlineducation/style/images/images/xueyan4.png" alt="出纳业务操作实务"></a></div>
+										 <h4>出纳业务操作实务</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+									     </div>
+									</li>
+					                <li>
+				                            <div class="pic "><a href="/Onlineducation/kuaijiheshuishou" title="建筑业营改增操作解读-会计实操税务实操及纳税申报" target="_blank">
+				                               <img src="/Onlineducation/style/images/images/xueyuan5.png" alt="建筑业营改增操作解读-会计实操税务实操及纳税申报"></a>
+				                            </div>
+                                            <h4>建筑业营改增操作解读-会计实操税务实操及纳税申报</h4>
+                                            <div class="price_wrap clearfix">
+									         <div class="price">免费</div>
+										     <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+										    </div>
+									</li>
+					                <li>
+				                            <div class="pic "><a href="/Onlineducation/four" title="Excel财务应用" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/xueyuan6.png" alt="Excel财务应用"></a>
+				                            </div>
+											<h4>Excel财务应用</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											     <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									<li>
+				                            <div class="pic "><a href="/Onlineducation/six" title="主管会计之帐务实操岗位会计实操税务会计实操公开课" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/xueyuan7.png" alt="主管会计之帐务实操岗位会计实操税务会计实操公开课"></a>
+				                            </div>
+											<h4>主管会计之帐务实操岗位会计实操税务会计实操公开课 </h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									 <li>
+				                            <div class="pic "><a href="/Onlineducation/elem" title="CPA-注册会计师" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/xueyuan8.png" alt="CPA-注册会计师"></a>
+				                            </div>
+											<h4>CPA-注册会计师</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									<li class="none" style="display:none;">
+				                            <div class="pic "><a href="/Onlineducation/kuaijijichu" title="《会计基础》精讲班" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages2.png" alt="《会计基础》精讲班"></a>
+				                            </div>
+											<h4>《会计基础》精讲班</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									 <li class="none" style="display:none;">
+				                            <div class="pic "><a href="/Onlineducation/three" title="注册会计师-财务管理" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/xueyuan9.png" alt="注册会计师-财务管理"></a>
+				                            </div>
+											<h4>注册会计师-财务管理</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											    <a href="javascript:;" target="_self" class="home_start">
+		                          <img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+								<!-- 隐藏图书内容显示 -->
+						<div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic book">
+				                       <a href="/Onlineducation/autibook" title="" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/autibook1(1).jpg" alt="" style="width:140px;"> 
+				                       </a>
+				                    </div>
+                                    <h4>是掌握诸多会计理论却苦于找不到实践“门口”的人的一盏指路“小桔灯”！</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">￥66.00<del>￥89.00</del></div>
+		                                <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic book">
+				                       <a href="/Onlineducation/autibooktwo" title="" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/autibook1(5).jpg" style="width:140px;" alt="">
+				                       </a>
+				                     </div>
+                                    <h4>全面营改增后创业中国年度十大杰出会计师栾庆忠会计/出纳/做账/纳税岗位实战宝典!</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">￥66.00<del>￥89.00</del></div>
+		                               <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic book">
+					                           <a href="/Onlineducation/autibookthree" title="" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/autibook1(6).jpg" style="width:140px;" alt=""></a>
+					                      </div>
+	                                      <h4>玩转财务大数据：金税三期纳税实务。为纳税人提供做好税务风险管控的方式方法</h4>
+										    <div class="price_wrap clearfix">
+												<div class="price">￥66.00<del>￥89.00</del></div>
+												   <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+										 <div class="pic book">
+										 <a href="/Onlineducation/autibookfour" title="中小企业税务与会计实务" target="_blank">
+										 <img src="/Onlineducation/style/images/images/autibook1_4.jpg" style="width:140px;" alt="中小企业税务与会计实务"></a></div>
+										 <h4>中小企业税务与会计实务</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥66.00<del>￥89.00</del></div>
+											   <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+									     </div>
+									</li>
+					                <li class="none" style="display:none;">
+										 <div class="pic book">
+										 <a href="/Onlineducation/autibookfive" title="会计主管从入门到精通" target="_blank">
+										 <img src="/Onlineducation/style/images/images/autibook1_5.jpg" style="width:140px;" alt="会计主管从入门到精通"></a></div>
+										 <h4>会计主管从入门到精通</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥66.00<del>￥89.00</del></div>
+											  <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+									     </div>
+									</li>
+									<li class="none" style="display:none;">
+										 <div class="pic book">
+										 <a href="/Onlineducation/autibooksix" title="手把手教你做好成本会计" target="_blank">
+										 <img src="/Onlineducation/style/images/images/autibooko1_6.jpg" style="width:140px;" alt="手把手教你做好成本会计"></a></div>
+										 <h4>手把手教你做好成本会计</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥66.00<del>￥89.00</del></div>
+											   <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+									     </div>
+									</li>
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+                          <div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic">
+				                       <a href="javascript:;" title="会计-机考模拟系统" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/test1.png" alt="会计-机考模拟系统">
+				                       </a>
+				                    </div>
+                                    <h4>会计-机考模拟系统</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">考题正在路上...敬请期待</div>
+			                        </div>
+			                     </li>
+					            
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+
+
+</div>
+
+<!-- 审计 -->
+
+     <div class="course-list clearfix">
+						<div class="tit">
+		                    <h4>审计<i></i></h4>
+		                    <ul>
+		                    	<li class="on">课程</li>
+		                    	<li>图书</li>
+		                    	<li>题库</li>
+		                   </ul>
+		                </div>
+		                <div class="con clearfix" style="display: block;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic ">
+				                       <a href="/Onlineducation/nine" title="审计-考前点题密训班" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/bookimages5.png" alt="审计-考前点题密训班">
+				                       </a>
+				                    </div>
+                                    <h4>审计-考前点题密训班</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                              <a href="javascript:;" target="_self" class="home_start">
+			                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+			                          </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic">
+				                       <a href="/Onlineducation/elem" title="审计-习题精讲" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/bookimages5.png" alt="审计-习题精讲">
+				                       </a>
+				                     </div>
+                                    <h4>审计-习题精讲</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                            <a href="javascript:;" target="_self" class="home_start">
+				                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+				                            <img src="/Onlineducation/style/images/images/start2.png">
+				                      </a> 
+		                            </div>
+			                        </li>
+					                <li>
+					                       <div class="pic">
+					                           <a href="/Onlineducation/threeteen" title="会计-冲刺串讲" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/bookimages5.png" alt="会计-冲刺串讲"></a>
+					                      </div>
+	                                      <h4>会计-冲刺串讲</h4>
+										    <div class="price_wrap clearfix">
+												<div class="price">免费
+												</div>
+												<a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+										 <div class="pic ">
+										 <a href="/Onlineducation/twen" title="审计-普通集训班" target="_blank">
+										 <img src="/Onlineducation/style/images/images/bookimages5.png" alt="审计-普通集训班"></a></div>
+										 <h4>审计-普通集训班</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+									     </div>
+									</li>
+					                <li>
+				                            <div class="pic "><a href="/Onlineducation/seven" title="审计--冲刺点睛班" target="_blank">
+				                               <img src="/Onlineducation/style/images/images/bookimages5.png" alt="审计--冲刺点睛班"></a>
+				                            </div>
+                                            <h4>审计--冲刺点睛班</h4>
+                                            <div class="price_wrap clearfix">
+									         <div class="price">免费</div>
+										   <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+										    </div>
+									</li>
+					                <li>
+				                            <div class="pic "><a href="/Onlineducation/twen" title="审计-特色通关班" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages5.png" alt="审计-特色通关班"></a>
+				                            </div>
+											<h4>审计-特色通关班</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											    <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                          <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									<li>
+				                            <div class="pic "><a href="/Onlineducation/five" title="审计-精品提分班" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages5.png" alt="审计-精品提分班"></a>
+				                            </div>
+											<h4>审计-精品提分班</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											    <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                           <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									 <li>
+				                            <div class="pic "><a href="/Onlineducation/eight" title="审计-移动学习包" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages5.png" alt="审计-移动学习包"></a>
+				                            </div>
+											<h4>审计-移动学习包</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									
+									<li class="none" style="display:none;">
+				                            <div class="pic "><a href="/Onlineducation/two" title="会计-移动学习包" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages5.png" alt="会计-移动学习包"></a>
+				                            </div>
+											<h4>会计-移动学习包</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											  <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									 <li class="none" style="display:none;">
+				                            <div class="pic "><a href="/Onlineducation/three" title="注册会计师-财务管理" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages5.png" alt="注册会计师-财务管理"></a>
+				                            </div>
+											<h4>注册会计师-财务管理</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											    <a href="javascript:;" target="_self" class="home_start">
+		                          <img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									
+									
+									
+									
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+		                <!-- 隐藏图书内容显示 -->
+						<div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic book">
+				                       <a href="/Onlineducation/autibookseven" title="企业所得税政策与实践深度分析 （2015）" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/autibook2_1.png" style="width:140px;" alt="企业所得税政策与实践深度分析 （2015）">
+				                       </a>
+				                    </div>
+                                    <h4>企业所得税政策与实践深度分析 （2015）</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">￥66.00<del>￥89.00</del></div>
+		                             <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a>  
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic book">
+				                       <a href="/Onlineducation/autibookeight" title="手把手教你做优秀出纳" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/autibook2_2.jpg" style="width:140px;" alt="手把手教你做优秀出纳">
+				                       </a>
+				                     </div>
+                                    <h4>手把手教你做优秀出纳</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">￥66.00<del>￥89.00</del></div>
+		                                <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic book">
+					                           <a href="/Onlineducation/autibooknine" title="" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/autibook2_3.jpg" style="width:140px; alt=""></a>
+					                      </div>
+	                                      <h4></h4>
+										    <div class="price_wrap clearfix">
+												<div class="price">￥66.00<del>￥98.00</del>
+												</div>
+											  <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+										 <div class="pic book">
+										 <a href="/Onlineducation/autibookten" title="" target="_blank">
+										 <img src="/Onlineducation/style/images/images/autibook2_4.png"  style="width:140px; alt=""></a></div>
+										 <h4></h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥66.00<del>￥98.00</del></div>
+											    <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+									     </div>
+									</li>
+					                <li class="none" style="display:none;">
+										 <div class="pic book">
+										 <a href="/Onlineducation/autibookelen" title="" target="_blank">
+										 <img src="/Onlineducation/style/images/images/autibook2_5.png" style="width:140px;" alt=""></a></div>
+										 <h4></h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥66.00<del>￥98.00</del></div>
+											  <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+									     </div>
+									</li>
+									<li class="none" style="display:none;">
+										 <div class="pic book">
+										 <a href="/Onlineducation/autibooktwen" title="" target="_blank">
+										 <img src="/Onlineducation/style/images/images/autibook2_6.png" style="width:140px;" alt=""></a></div>
+										 <h4></h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥66.00<del>￥98.00</del></div>
+											    <a href="javascript:;" target="_self" class="home_flower">
+		                                     <img src="/Onlineducation/style/images/images/flower.png">
+		                                 </a> 
+									     </div>
+									</li>
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+                          <div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic">
+				                       <a href="javascript:;" title="会计-机考模拟系统" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/test1.png" alt="会计-机考模拟系统">
+				                       </a>
+				                    </div>
+                                    <h4>会计-机考模拟系统</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">考题正在路上...敬请期待</div>
+			                        </div>
+			                     </li>
+					            
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+
+</div>
+<!-- 税法 -->
+  <div class="course-list clearfix producttemp01zhugeclick">
+						<div class="tit">
+		                    <h4>税法<i></i></h4>
+		                    <ul>
+		                    	<li class="on">课程</li>
+		                    	<li>图书</li>
+		                    	<li>题库</li>
+		                   </ul>
+		                </div>
+		                <div class="con clearfix" style="display: block;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic ">
+				                       <a href="/Onlineducation/lawone" title="" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/bookimages3.png" alt="">
+				                       </a>
+				                    </div>
+                                    <h4></h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                               <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic">
+				                       <a href="/Onlineducation/lawtwo" title="" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/bookimages3.png" alt="">
+				                       </a>
+				                     </div>
+                                    <h4>税法-习题精讲</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                               <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic">
+					                           <a href="/Onlineducation/lawthree" title="" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/bookimages3.png" alt=""></a>
+					                      </div>
+	                                      <h4></h4>
+										    <div class="price_wrap clearfix">
+												<div class="price">免费
+												</div>
+												<a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+										 <div class="pic ">
+										 <a href="/Onlineducation/lawone" title="" target="_blank">
+										 <img src="/Onlineducation/style/images/images/bookimages3.png" alt=""></a></div>
+										 <h4></h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">免费</div>
+									     </div>
+									   <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+									</li>
+					                <li>
+				                            <div class="pic "><a href="lawtwo" title="" target="_blank">
+				                               <img src="/Onlineducation/style/images/images/bookimages3.png" alt=""></a>
+				                            </div>
+                                            <h4></h4>
+                                            <div class="price_wrap clearfix">
+									         <div class="price">免费</div>
+										     <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+										    </div>
+									</li>
+					                <li>
+				                            <div class="pic "><a href="lawthree" title="" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages3.png" alt=""></a>
+				                            </div>
+											<h4></h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											   <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									<li>
+				                            <div class="pic "><a href="/Onlineducation/lawone" title="" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages3.png" alt=""></a>
+				                            </div>
+											<h4></h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											     <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+												</div>
+									</li>
+									 <li>
+				                            <div class="pic "><a href="/Onlineducation/lawtwo" title="" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages3.png" alt=""></a>
+				                            </div>
+											<h4></h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											      <!--  <a href="javascript:void(0)" target="_self" class="chkName-buy coursechk addShopCartCourse">加入购物车</a> -->
+												</div>
+									</li>
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+		                  <!-- 隐藏图书内容显示 -->
+						<div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic book">
+				                       <a href="/Onlineducation/lawbookone" title="" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/bookimages3.png" alt="">
+				                       </a>
+				                    </div>
+                                    <h4></h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                             <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic book">
+				                       <a href="lawbooktwo" title="" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/bookimages3.png" alt="">
+				                       </a>
+				                     </div>
+                                    <h4></h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                              <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic book">
+					                           <a href="javascript:;" title="2018年注册会计师《会计》“梦想成真”系列应试指南+官方教材" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/book1.jpg" alt="2018年注册会计师《会计》“梦想成真”系列应试指南+官方教材"></a>
+					                      </div>
+	                                      <h4>2018年注册会计师《会计》“梦想成真”系列应试指南+官方教材</h4>
+										    <div class="price_wrap clearfix">
+												<div class="price">￥200.00<del>￥500.00</del>
+												</div>
+												<a href="javascript:void(0)" target="_self" class="chkName-buy">加入购物车</a>
+											</div>
+								    </li>
+									<li>
+										 <div class="pic book">
+										 <a href="javascript:;" title="2018年注册会计师《会计》“梦想成真”系列经典题解+官方教材" target="_blank">
+										 <img src="/Onlineducation/style/images/images/book1.jpg" alt="2018年注册会计师《会计》“梦想成真”系列经典题解+官方教材"></a></div>
+										 <h4>2018年注册会计师《会计》“梦想成真”系列经典题解+官方教材</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥200.00<del>￥500.00</del></div>
+									     </div>
+									</li>
+					                
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+                          <div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic">
+				                       <a href="javascript:;" title="会计-机考模拟系统" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/test1.png" alt="会计-机考模拟系统">
+				                       </a>
+				                    </div>
+                                    <h4>会计-机考模拟系统</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">￥200.00<del>￥500.00</del></div>
+		                                <a href="javascript:void(0)" target="_self" class="chkName-buy">加入购物车</a>
+			                        </div>
+			                     </li>
+					            
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+		                
+		              
+		              
+		              
+		              
+		                </div>
+
+
+<!-- 财务成本管理 -->
+
+  <div class="course-list clearfix producttemp01zhugeclick">
+						<div class="tit">
+		                    <h4>财务成本管理<i></i></h4>
+		                    <ul>
+		                    	<li class="on">课程</li>
+		                    	<li>图书</li>
+		                    	<li>题库</li>
+		                   </ul>
+		                </div>
+		                <div class="con clearfix" style="display: block;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic ">
+				                       <a href="/Onlineducation/five" title="财务成本管理-考前点题密训班" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/bookimages4.png" alt="财务成本管理-考前点题密训班">
+				                       </a>
+				                    </div>
+                                    <h4>财务成本管理-考前点题密训班</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                                 <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic">
+				                       <a href="/Onlineducation/five" title="财务成本管理-习题精讲" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/bookimages4.png" alt="财务成本管理-习题精讲">
+				                       </a>
+				                     </div>
+                                    <h4>财务成本管理-习题精讲</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">免费</div>
+		                              <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic">
+					                           <a href="/Onlineducation/five" title="财务成本管理-冲刺串讲" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/bookimages4.png" alt="财务成本管理-冲刺串讲"></a>
+					                      </div>
+	                                      <h4>财务成本管理-冲刺串讲</h4>
+										    <div class="price_wrap clearfix">
+												<div class="price">免费
+												</div>
+												 <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+				                            <div class="pic "><a href="/Onlineducation/five" title="财务成本管理-冲刺点睛班" target="_blank">
+				                                <img src="/Onlineducation/style/images/images/bookimages4.png" alt="财务成本管理-冲刺点睛班"></a>
+				                            </div>
+											<h4>财务成本管理-冲刺点睛班</h4>
+											<div class="price_wrap clearfix">
+												<div class="price">免费</div>
+											      <a href="javascript:;" target="_self" class="home_start">
+		                             <img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png"><img src="/Onlineducation/style/images/images/start2.png">
+		                             <img src="/Onlineducation/style/images/images/start2.png">
+		                                 </a>  
+												</div>
+									</li>
+									
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+		               <!-- 隐藏图书内容显示 -->
+						<div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic book">
+				                       <a href="javascript:;" title="2018注册会计师《会计》“梦想成真”系列五册通关+官方教材（快递免邮…" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/book1.jpg" alt="2018注册会计师《会计》“梦想成真”系列五册通关+官方教材（快递免邮…">
+				                       </a>
+				                    </div>
+                                    <h4>2018注册会计师《会计》“梦想成真”系列五册通关+官方教材（快递免邮…</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">￥68.00<del>￥88.00</del></div>
+		                                <a href="javascript:;" target="_self" class="home_flower">
+		                             <img src="/Onlineducation/style/images/images/flower.png">
+		                            
+		                                 </a> 
+			                        </div>
+			                     </li>
+					             <li>
+				                    <div class="pic book">
+				                       <a href="" title="2018年注册会计师《会计》“梦想成真”系列五册通关" target="_blank">
+				                       <img src="/Onlineducation/style/images/images/book1.jpg" alt="2018年注册会计师《会计》“梦想成真”系列五册通关">
+				                       </a>
+				                     </div>
+                                    <h4>2018年注册会计师《会计》“梦想成真”系列五册通关</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">￥68.00<del>￥88.00</del></div>
+		                                 <a href="javascript:;" target="_self" class="home_flower">
+		                             <img src="/Onlineducation/style/images/images/flower.png">
+		                            
+		                                 </a> 
+			                         </div>
+			                        </li>
+					                <li>
+					                       <div class="pic book">
+					                           <a href="javascript:;" title="2018年注册会计师《会计》“梦想成真”系列应试指南+官方教材" target="_blank">
+					                                <img src="/Onlineducation/style/images/images/book1.jpg" alt="2018年注册会计师《会计》“梦想成真”系列应试指南+官方教材"></a>
+					                      </div>
+	                                      <h4>2018年注册会计师《会计》“梦想成真”系列应试指南+官方教材</h4>
+										    <div class="price_wrap clearfix">
+												<div class="price">￥20.00<del>￥50.00</del>
+												</div>
+												 <a href="javascript:;" target="_self" class="home_flower">
+		                             <img src="/Onlineducation/style/images/images/flower.png">
+		                            
+		                                 </a> 
+											</div>
+								    </li>
+									<li>
+										 <div class="pic book">
+										 <a href="javascript:;" title="2018年注册会计师《会计》“梦想成真”系列经典题解+官方教材" target="_blank">
+										 <img src="/Onlineducation/style/images/images/book1.jpg" alt="2018年注册会计师《会计》“梦想成真”系列经典题解+官方教材"></a></div>
+										 <h4>2018年注册会计师《会计》“梦想成真”系列经典题解+官方教材</h4>
+										 <div class="price_wrap clearfix">
+											  <div class="price">￥57.00<del>￥680.00</del></div>
+											   <a href="javascript:;" target="_self" class="home_flower">
+		                             <img src="/Onlineducation/style/images/images/flower.png">
+		                            
+		                                 </a> 
+									     </div>
+									</li>
+					                
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+                          <div class="con clearfix" style="display:none;">
+							<ul class="clearfix">
+		                		<li>
+				                   <div class="pic">
+				                       <a href="javascript:;" title="会计-机考模拟系统" target="_blank">
+				                              <img src="/Onlineducation/style/images/images/test1.png" alt="会计-机考模拟系统">
+				                       </a>
+				                    </div>
+                                    <h4>会计-机考模拟系统</h4>
+                                    <div class="price_wrap clearfix">
+	                                    <div class="price">敬请期待</div>
+		                                
+			                        </div>
+			                     </li>
+					            
+					                </ul>
+								<a href="javascript:void(0)" class="more-btn"><span class="more">展开更多</span><span class="no-more">已展开全部课程</span>(19)<i></i></a>
+								</div>
+		               
+		               
+		                </div>
+</div>
+
+<div class="leftFix-nav msf" style="display: block;">
+        <ul>
+        	<li><a href="javascript:void(0)" class="on">联报课程</a><a href="javascript:void(0)" class="on-show leftnavizhugeclick" title="注会--联报课程" style="display: none;"><i></i>注会--联报课程</a></li>
+        	<li><a href="javascript:void(0)" class="on">会计</a><a href="javascript:void(0)" class="on-show leftnavizhugeclick" title="会计" style="display: none;"><i></i>会计</a></li>
+        	<li><a href="javascript:void(0)" class="on">审计</a><a href="javascript:void(0)" class="on-show leftnavizhugeclick" title="审计" style="display: none;"><i></i>审计</a></li>
+        	<li><a href="javascript:void(0)" class="on">税法</a><a href="javascript:void(0)" class="on-show leftnavizhugeclick" title="税法" style="display: none;"><i></i>税法</a></li>
+        	<li><a href="javascript:void(0)" class="on">财务成本管理</a><a href="javascript:void(0)" class="on-show leftnavizhugeclick" title="财务成本管理" style="display: none;"><i></i>财务成本管理</a></li>
+        
+       </ul>
+        <a href="javascript:void(0)" class="more-btn on" style="display: block;"><i></i><span>收起</span></a>
+        </div>
+
+</div>
+<script>
+$(function () {
+	
+	//选项卡
+    function accTab(tabs,lis,divs){
+        $(tabs).each(function(){
+            var thisLis = $(this).find(lis);
+            var thisDivs = $(this).find(divs);
+            $(thisLis[0]).addClass("on");
+            $(thisDivs[0]).css("display", "block");
+            thisLis.each(function (i) {
+                $(this).click(function(){
+                    $(this).addClass("on").siblings(lis).removeClass("on");
+                    if ( navigator.userAgent.indexOf('MSIE') >= 0){
+                        thisDivs.eq(i).show().siblings(divs).hide();
+                    }else {
+                        thisDivs.eq(i).fadeIn().siblings(divs).hide();
+                    }
+                });
+            });
+        });
+    };
+    accTab(".course-list",".tit li",".con");
+    
+ 
+    
+  //右侧导航
+    $(".leftFix-nav li").hover(function () {
+        if($(this).hasClass("cur")){}else {
+            $(this).find(".on-show").stop(true,true).show();
+        }
+    },function () {
+        if($(this).hasClass("cur")){}else {
+            $(this).find(".on-show").stop(true,true).hide();
+        }
+    });
+	
+    var sTop = $(window).scrollTop();
+    var AllHet = $(window).height();
+    var mainHet= $('.leftFix-nav').height();
+    var fixedTop = (AllHet - mainHet)/2;
+    $('.leftFix-nav li a').click(function(){
+        var ind = $(this).parents("li").index()+1;
+        var topVal = $('#float0'+ind).offset().top;
+        $('body,html').animate({scrollTop:topVal},1000)
+    })
+
+
+    //吸顶模式
+    if($(".leftFix-nav").length>0){
+        var showHeight = $("#main-top").offset().top;
+        $(window).bind("scroll", function(){
+            var sTop= $(document).scrollTop();
+            if(sTop >= showHeight){
+                $('.leftFix-nav').fadeIn();
+            }else {
+                $('.leftFix-nav').fadeOut();
+            }
+        });
+    }
+  //课程列表展开收起
+    $(".course-list").on("click", ".more-btn", function() {
+    	var _this = $(this).prev().find("li.none");
+    	if(_this.is(":hidden")){
+    		_this.fadeIn();
+    		$(this).removeClass("on");
+    	}else {
+    		_this.hide();
+    		$(this).addClass("on");
+    	}
+    });
+
+  
+  
+  
+  //左侧悬浮显示隐藏
+  if($(".leftFix-nav li").length<=100){
+    $(".leftFix-nav").css("display","none");
+      }else {
+   $(".leftFix-nav").css("display","block");
+      }
+  
+  
+  
+  
+  
+	
+	
+});
+</script>
+
+
+
+</body>
+</html>

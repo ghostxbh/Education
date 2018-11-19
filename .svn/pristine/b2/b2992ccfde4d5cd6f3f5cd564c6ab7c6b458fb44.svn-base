@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>kjfwpt-zaixianzhifu</title>
+</head>
+<style>
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body,html{overflow-x:hidden;}
+
+
+
+
+
+#header{
+		height:60px;
+		width:1200px;
+    	margin: 0 auto;
+		overflow:hidden;
+		}
+.header-left{
+		float:left;
+		}
+.logo{
+		float:left;
+		margin-top:0px;
+		}
+.header-right{
+		float:right;
+		}
+.nav7{
+	margin-top:20px;
+	width:100px;
+	height:60px;
+	background-color:;
+	float:right;
+	margin-right:20px;
+	}
+.nav7 a{
+	color:#333;
+	}
+.nav7 a:hover{
+	color:#00d2ff;
+	}
+.nav8{
+	width:100px;
+	height:60px;
+	float:right;
+	margin-top:20px;
+	}
+.nav8 a{
+	color:#333;
+	}
+.nav8 a:hover{
+	color:#00d2ff;
+	}
+.denglu{
+	padding-top:10px;
+	font-size:22px;
+	text-align:center;
+	font-family:"微软雅黑";
+	margin:0 auto;
+	}
+.zhuce{
+	font-size:22px;
+	padding-top:10px;
+	text-align:center;
+	font-family:"微软雅黑";
+	margin:0 auto;
+	}
+.header-center{
+	margin-left:40px;
+	padding-top: 10px;
+	float:left;
+	font-family:"微软雅黑";
+	font-size:32px;
+	color:#666;	}
+
+
+
+
+
+
+#main{
+	width:1200px;
+	margin:0 auto;
+	margin-top:20px;}
+.main-top{
+	height:100px;}
+.ao{
+	width:0px;
+	height:0px;
+	border-style:solid;
+	border-width:10px;
+	float:right;
+	margin-top:7px;
+	margin-right:10px;
+	border-color:#00d2ff transparent transparent transparent;}
+
+
+.main-text-left{
+	float:left;
+	
+	line-height:30px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	}
+.main-text-right{
+	float:right;
+	line-height:25px;
+	font-size:18px;
+	}
+
+
+.span-620{
+	color:#FF0004;
+	font-size:24px;
+	margin-left:5px;
+	}
+.span-dingdanxiangqing{
+	color:#00d2ff;
+	margin-left:60px;
+	}
+
+
+
+
+.main-danxuan{
+	width:1200px;
+	height:100px;
+	line-height:100px;
+	margin:0 auto;
+	}
+.main-danxuan img{
+	vertical-align:middle;
+	margin-left:20px;}
+.yinhangkazhifu{
+	font-size:24px;
+	font-family:"微软雅黑";
+	margin-left:20px;
+	color:#333;
+	
+	}
+.main-danxuan-yinhang{
+	padding-left:100px;
+	
+	}
+.main-danxuan-yinhang img{
+	vertical-align:middle;
+	margin-left:20px;}
+
+.yinhang{
+	font-size:20px;
+	font-family:"微软雅黑";
+	margin-left:20px;
+	color:#333;
+	}
+
+.zhifu620{
+	float:right;
+	font-size:20px;
+	margin-top:10px;}
+
+.shuzi-620{
+	color:#FF0004;}
+
+
+.main-tianjia{
+	width:250px;
+	height:30px;
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#666;
+	margin-left:100px;
+	text-align:center;
+	line-height:30px;
+	border-style: solid; 
+	border-width: 1px 1px 1px 1px;
+	border-color:#666;}
+
+
+
+.main-lijizhifu{
+	width:300px;
+	height:50px;
+	font-family:"微软雅黑";
+	font-size:26px;
+	color:#fff;
+	margin-left:100px;
+	text-align:center;
+	line-height:50px;
+	background-color:#00d2ff;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	margin:0 auto;
+	margin-top:70px;}
+
+
+.main-lijizhifu a{
+	color:#fff;}
+
+
+/*footer*/
+#footer{
+		margin-top:80px;
+		height:200px;
+		background-color:#3c3c3c;
+		}
+
+.footer-bottom{
+		
+		height:70px;
+		width:1200px;
+		margin:0 auto;
+		}
+.footer-bottom-text{
+	padding-top:50px;
+		text-align:center;
+		color:#fff;
+		font-family:"微软雅黑";
+		}
+.footer-bottom-text a:hover{
+		color:#00d2ff;
+		}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+<body>
+<div id="header">
+        <div class="header-left">
+            <div class="logo"><img src="../images/logo-888.png"/></div>
+            
+        </div>
+        <div class="header-right">
+            <div class="nav8"><p class="zhuce"><a href="#">我的订单</a></p></div>
+            <div class="nav7"><p class="denglu"><a href="#">支付助手</a></p></div>
+        </div>
+        <div class="header-center">支付订单
+    	</div>
+</div> <hr class="hr3"/>
+
+
+
+
+
+
+
+
+
+<div id="main">
+	<div class="main-top">
+        <div class="main-text-left">订单提交成功，请尽快付款！订单号：78238517921<br/>请您在24小时内完成支付，否则订单会被自动取消(库存紧俏订单请参见详情页时限)</div>
+        <div class="main-text-right">应付金额<span class="span-620">620.00元</span><br/><span class="span-dingdanxiangqing">订单详情</span><div class="ao"></div></div>
+	</div>
+	<div class="main-danxuan">
+        <input type="radio" name="sex" value="n" /><img src="../images/kjfwpt-zhifu_07.jpg"/><span class="yinhangkazhifu" >微信支付</span><br/><br/>
+   	</div>
+    <div class="main-danxuan">
+        <input type="radio" name="sex" value="v" /><img src="../images/kjfwpt-zhifu_11.jpg"/><span class="yinhangkazhifu" >支付宝支付</span><br/><br/>
+    </div>
+    <div class="main-danxuan">
+    
+    	<input type="radio" name="sex" value="v" /><img src="../images/kjfwpt-zhifu_15.jpg"/><span class="yinhangkazhifu" >银行卡支付</span>
+    </div>
+	<div class="main-danxuan-yinhang">
+    	<input type="radio" name="sex" value="n" /><img src="../images/kjfwpt-zhifu_19.jpg"/><span class="yinhang" >中国农业银行</span><span class="zhifu620">支付<span class="shuzi-620">620.00</span>元</span><br/><br/>
+    </div>
+	<div class="main-danxuan-yinhang">
+    	<input type="radio" name="sex" value="n" /><img src="../images/kjfwpt-zhifu_23.jpg"/><span class="yinhang" >中国农业银行</span><br/><br/>
+    </div>
+	
+	<div class="main-tianjia">添加新卡 / 网银支付</div>
+
+
+	<div class="main-lijizhifu"><a href="kjfwpt-gongsizhifu.html">立即支付</a></div>
+
+
+
+</div>
+
+<div id="footer">
+
+    <div class="footer-bottom">
+        <p class="footer-bottom-text">网站链接: &nbsp<a>在线会计</a>    <a>会计学院</a> </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

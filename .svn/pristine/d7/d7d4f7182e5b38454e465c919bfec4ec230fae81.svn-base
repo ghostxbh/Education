@@ -1,0 +1,815 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>kuaijifuwupingtai</title>
+
+</head>
+<style>
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body,html{overflow-x:hidden;} 
+
+
+
+
+
+
+
+
+#header{
+		height:60px;
+		width:1200px;
+    	margin: 0 auto;
+		overflow:hidden;
+		}
+.header-left{
+		float:left;
+		}
+.logo{
+		float:left;
+		margin-top:0px;
+		}
+
+.header-right{
+		float:right;
+		}
+.nav7{
+	margin-top:0px;
+	width:60px;
+	height:60px;
+	
+	float:right;
+	
+	}
+.nav7 a{
+	color:#333;
+	}
+
+.nav8{
+	width:60px;
+	height:60px;
+	float:right;
+	margin-top:px;
+	background-image:url(../images/jianbian_04_08.jpg);
+	}
+.nav8 a{
+	color:#FFFFFF;
+	}
+
+.denglu{
+	padding-top:20px;
+	font-size:20px;
+	text-align:center;
+	font-family:"微软雅黑";
+	margin:0 auto;
+	
+	}
+.zhuce{
+	font-size:20px;
+	padding-top:20px;
+	text-align:center;
+	font-family:"微软雅黑";
+	margin:0 auto;
+	
+	}
+.header-center{
+	margin-right:50px;
+	padding-top: 20px;
+	float:right;
+	font-family:"微软雅黑";
+	font-size:20px;
+		}
+.nav1{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav1 a{
+	color:#333;
+		}
+.nav1 a:hover{
+	color:#00d2ff;
+		}
+
+
+.nav2{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav2 a{
+	color:#333;
+		}
+.nav2 a:hover{
+	color:#00d2ff;
+		}
+.nav3{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav3 a{
+	color:#333;
+		}
+.nav3 a:hover{
+	color:#00d2ff;
+		}
+
+.nav4{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav4 a{
+	color:#333;
+		}
+.nav4 a:hover{
+	color:#00d2ff;
+		}
+		
+.nav5{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav5 a{
+	color:#333;
+		}
+.nav5 a:hover{
+	color:#00d2ff;
+		}
+.nav6{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	
+	}
+.nav6 a{
+	color:#333;
+		}
+.nav6 a:hover{
+	color:#00d2ff;
+		}	
+	
+
+
+
+
+
+
+/*banner*/
+#banner{margin: 0 auto;
+		background-color:#CC3032;
+		overflow:hidden;
+		display:block;
+		overflow:hidden;
+		height:460px;
+		width:100%;
+		}
+.banner-box img{
+		float:left;
+		width:100%;
+		height:460px;
+		background-color:#DC2C2F;
+		}
+		
+
+
+
+
+
+
+
+/*main-图标*/
+#main-icon{
+		width:1200px;
+		height:480px;
+		margin: 0 auto;
+		}
+.main-icon-top{
+		height:130px;
+		margin-top:50px;
+		}
+.main-icon-top-gongye{
+		float:left;
+		width:300px;
+		height:130px;
+		
+		}
+.main-icon-top-jianzhu{
+		float:left;
+		width:300px;
+		height:130px;
+		}
+.main-icon-top-ruanjianye{
+		float:left;
+		width:300px;
+		height:130px;
+		}
+.main-icon-top-shangye{
+		float:left;
+		width:300px;
+		height:195px;
+		}
+.main-bottom{
+		height:70px;
+		
+		
+		}
+.main-icon-bottom-canyin{
+		float:left;
+		width:300px;
+		}
+.main-icon-bottom-jiuidan{
+		float:left;
+		width:300px;
+		}
+.main-icon-bottom-fangdichan{
+		float:left;
+		width:300px;
+		}
+.main-icon-bottom-wuliu{
+		float:left;
+		width:300px;
+		}
+.main-icon-pic{
+		text-align:center;
+		margin-top:0px;
+		
+		
+		}
+.main-icon-pic img{
+		width:120px;
+		height:120px;}
+.main-icon-text{
+		text-align:center;
+		margin-top:10px;
+		font-size:24px;
+		font-family:"微软雅黑";
+		}
+.main-icon-text a{
+		color:#333;
+		}
+.main-icon-text a:hover{
+		color:#00d2ff;
+		}
+
+
+
+
+
+
+
+/*main-专家*/
+#main-zhuanjia{
+		width:1200px;
+		margin: 0 auto;
+		background-image:url(../images/shouye-title.png);
+		background-repeat:no-repeat;
+		background-position:center top;
+		overflow-x:hidden;
+		}	
+.main-zhuanjia-box{
+		margin-top:20px;
+		height:1050px;
+		}	
+.main-zhuanjia-top{
+		height:500px;
+		margin-top:80px;
+		}
+.main-zhuanjia-top-left{
+		float:left;
+		width:600px;
+		height:400px;
+		background-color:#9CF7FF;
+		}
+.main-zhuanjia-top-right{
+		float:left;
+		width:600px;
+		height:px;
+		}
+.main-zhuanjia-touxiang{
+		text-align:center;
+		margin-top:20px;
+		}
+.main-zhuanjia-jieshao{
+		font-family:"微软雅黑";
+		font-size:24px;
+		margin-left:40px;
+		margin-right:40px;
+		margin-top:30px;
+		}
+.main-zhuanjia-jutijieshao{
+		font-family:"微软雅黑";
+		font-size:24px;
+		float:right;
+		margin-right:40px;
+		margin-top:10px;
+		}
+.main-zhuanjia-jutijieshao a{
+		color:#333;
+		}
+.main-zhuanjia-jutijieshao a:hover{
+		color:#00d2ff;
+		}
+.main-zhuanjia-bottom{
+		height:300px;
+		}
+.main-zhuanjia-kuaiji{
+		float:left;
+		width:370px;
+		}
+.main-zhuanjia-kuaiji-pic1{
+		float:left;
+		}
+.main-zhuanjia-kuaiji-pic2{
+		float:left;
+		}
+.main-zhuanjia-kuaiji-pic3{
+		float:left;
+		}
+.main-zhuanjia-bottom-text{
+		text-align:center;
+		margin-top:20px;
+		}
+.main-zhuanjia-kuaiji1{
+		width:50px;
+		float:left;
+		margin-top:100px;
+		margin-left:10px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main-新闻*/
+#main-xinwen{
+		width:1200px;
+		height:1000px;
+		margin:0 auto;
+		margin-top:30px;
+		background-image:url(../images/shouye-title.png);
+		background-repeat:no-repeat;
+		background-position:center top;
+		overflow-x:hidden;
+		}
+.main-xinwen-box{
+		margin-top:20px;
+		}
+.main-xinwen-top{
+		height:350px;
+		margin-top:80px;
+		}
+.main-xinwen-bottom{
+		height:350px;
+		margin-top:50px;
+		}
+.main-xinwen-top-title{
+		height:54px;
+		}
+.main-xinwen-top-title-icon{
+		float:left;
+		margin-left:5px;}
+.main-xinwen-top-title-text{
+		font-family:"微软雅黑";
+		float:left;
+		margin-left:15px;
+		font-size:26px;
+		color:#333;}
+.main-xinwen-top-title-xiantiao{
+		height:1px;
+		background-color:#999;
+		}
+.main-xinwen-top-content{
+	overflow:hidden;
+	margin-top:20px;
+	width:1200px;
+		}
+.main-xinwen-top-content-text{
+		width:1200px;
+		float:left;
+		font-family:"微软雅黑";
+		font-size:22px;
+		line-height:42px;
+		}
+.main-xinwen-top-content-text-left{
+		float:left;
+		}
+.main-xinwen-top-content-text-left a{
+		color:#333;
+		}
+.main-xinwen-top-content-text-left a:hover{
+		color:#00d2ff;
+		}
+.main-xinwen-top-content-text-right{
+		float:right;
+		color:#666;
+		}
+.main-xinwen-top-content-text-right a{
+		color:#333;
+		}
+.main-xinwen-top-content-text-right a:hover{
+		color:#00d2ff;
+		}
+
+
+
+
+
+
+
+
+/*footer*/
+#footer{
+		margin-top:50px;
+		height:350px;
+		background-color:#3c3c3c;
+		}
+.footer-top{
+		height:250px;
+		width:1200px;
+		margin:0 auto;
+		}
+.footer-top-left{
+		width:250px;
+		height:250px;
+		float:left;
+		}
+.footer-top-left-logo{
+		margin-left:50px;
+		margin-top:20px;
+		}
+.footer-top-left-text{
+		margin-left:50px;
+		color:#FFFFFF;
+		margin-top:20px;
+		font-size:22px;
+		font-family:"微软雅黑";
+		}
+.footer-top-center{
+		width:600px;
+		height:250px;
+		float:left;
+		}
+.ul-box{
+		text-align:center;
+		width:200px;
+		height:250px;
+		color:#FFFFFF;
+		float:left;	
+		}
+.ul-box a{
+		color:#FFFFFF;
+		}
+.ul-box a:hover{
+		color:#00d2ff;
+		}
+.li-title{
+		margin-top:10px;
+		font-family:"微软雅黑";
+		font-size:24px;
+		line-height:70px;
+		}
+.li-text{font-size:20px;
+		font-family:"微软雅黑";
+		line-height:38px;
+		}
+.footer-top-right{
+		width:350px;
+		height:250px;
+		float:left;
+		}
+.footer-top-right-top{
+		width:350px;
+		height:130px;
+		}
+.footer-top-right-pic1{
+		width:72px;
+		height:72px;
+		float:left;
+		margin-left:30px;
+		margin-top:40px;
+		}
+.footer-top-right-bottom{
+		width:350px;
+		height:100px;
+		}
+.footer-top-right-bottom-text{
+		color:#FFFFFF;
+		font-size:14px;
+		text-align:center;
+		font-family:"微软雅黑";
+		line-height:28px;
+		}
+.footer-bottom{
+		height:70px;
+		width:1200px;
+		margin:0 auto;
+		}
+.footer-bottom-text{
+		text-align:center;
+		color:#fff;
+		font-family:"微软雅黑";
+		}
+.footer-bottom-text a:hover{
+		color:#00d2ff;
+		}
+
+
+
+
+
+
+
+/*title*/
+.main-title1{
+		text-align:center;
+		color:#031737;
+		font-family:"微软雅黑 Bold";
+		padding-top:5px;
+		font-size:40PX;
+		}
+.main-title2{
+		text-align:center;
+		color:#666666;
+		font-family:"Arial Regular";
+		font-size:18px;
+		}
+		
+
+</style>
+
+
+<body>
+<div id="header">
+        <div class="header-left">
+            <div class="logo"><img src="../images/logo-888.png"/></div>
+            
+        </div>
+        <div class="header-right">
+            <div class="nav8"><p class="zhuce"><a href="#">注册</a></p></div>
+            <div class="nav7"><p class="denglu"><a href="#">登录</a></p></div>
+        </div>
+        <div class="header-center">
+                <div class="nav1"><a href="#">国际商务会计</a></div>
+                <div class="nav2"><a href="#">财税书店</a></div>
+                <div class="nav3"><a href="#">会计服务平台</a></div>
+                <div class="nav4"><a href="#">财税学院</a></div>
+                <div class="nav5"><a href="#">财税软件</a></div>
+                <div class="nav6"><a href="../index.html">首页</a></div>
+    	</div>
+</div>
+
+
+
+
+
+
+<!--banner-->
+<div id="banner">
+        <div class="banner-box"><img src="../images/banner3.jpg"/></div>
+</div>
+
+
+
+
+
+
+
+
+<!--main-content-->
+<div id="main-icon">
+    <div class="main-icon-top">
+        <div class="main-icon-top-gongye">
+        	<a href="kjfwpt-zhuanjia.html"><div class="main-icon-pic"><img src="../images/kjfwpt-gongye).png"./></div>
+            <p class="main-icon-text"><a href="kjfwpt-zhuanjia.html">工业会计</a></p>
+        </div></a>
+        <a href="kjfwpt-zhuanjia.html"><div class="main-icon-top-jianzhu">
+        	<div class="main-icon-pic"><img src="../images/kjfwpt-jianzhu.png"/></div>
+            <p class="main-icon-text"><a href="#">建筑会计</a></p>
+        </div></a>
+        <a href="kjfwpt-zhuanjia.html"><div class="main-icon-top-ruanjianye">
+        	<div class="main-icon-pic"><img src="../images/kjfwpt-ruanjian.png"/></div>
+            <p class="main-icon-text"><a href="#">软件业会计</a></p>
+        </div></a>
+        <a href="kjfwpt-zhuanjia.html"><div class="main-icon-top-shangye">
+        	<div class="main-icon-pic"><img src="../images/kjfwpt-shangye.png"/></div>
+            <p class="main-icon-text"><a href="#">商业会计</a></p>
+        </div></a>
+    </div>
+    <div class="main-bottom">
+        <a href="kjfwpt-zhuanjia.html"><div class="main-icon-bottom-canyin">
+        	<div class="main-icon-pic"><img src="../images/kjfwpt-canyin.png"/></div>
+            <p class="main-icon-text"><a href="#">餐饮会计</a></p>
+        </div></a>
+        <a href="kjfwpt-zhuanjia.html"><div class="main-icon-bottom-jiuidan">
+        	<div class="main-icon-pic"><img src="../images/kjfwpt-jiudian.png"/></div>
+            <p class="main-icon-text"><a href="#">酒店会计</a></p>
+        </div></a>
+        <a href="kjfwpt-zhuanjia.html"><div class="main-icon-bottom-fangdichan">
+        	<div class="main-icon-pic"><img src="../images/kjfwpt-fangdichan.png"/></div>
+            <p class="main-icon-text"><a href="#">房地产会计</a></p>
+        </div></a>
+        <a href="kjfwpt-zhuanjia.html"><div class="main-icon-bottom-wuliu">
+        	<div class="main-icon-pic"><img src="../images/kjfwpt-wuliu.png"/></div>
+            <p class="main-icon-text"><a href="#">物流会计</a></p>
+        </div></a>
+    </div>
+</div>
+
+
+
+
+<!--main-专家-->
+<div id="main-zhuanjia">
+	<div class="main-zhuanjia-box">
+        <div class="main-title">
+            <h1 class="main-title1">随时随地轻松记账</h1></br>
+            <h6 class="main-title2">Easy to account at anytime and anywhere</h6>
+        </div>
+        <div class="main-zhuanjia-top">
+            <div class="main-zhuanjia-top-left">
+                
+            </div>
+            <div class="main-zhuanjia-top-right">
+                <div class="main-zhuanjia-touxiang"><img src="../images/kjfwpt-touxiang (2).png"/></div>
+                <div class="main-zhuanjia-jieshao">石家庄经济学院会计系副教授、中国注册会计师</div>
+                <div class="main-zhuanjia-jutijieshao"><a href="#">具体介绍>></a></div>
+            </div>
+        </div>
+        <div class="main-zhuanjia-bottom">
+                <div class="main-zhuanjia-kuaiji">
+                    <div class="main-zhuanjia-kuaiji-pic1"><img src="../images/kjfwpt-zhuanjia_03.png"/></div>
+                    <p class="main-zhuanjia-bottom-text">####</p>
+                </div>
+                <div class="main-zhuanjia-kuaiji">
+                	<div class="main-zhuanjia-kuaiji-pic2"><img src="../images/kjfwpt-zhuanjia_03.png"/></div>
+                    <p class="main-zhuanjia-bottom-text">####</p>
+                </div>
+                <div class="main-zhuanjia-kuaiji">
+                	<div class="main-zhuanjia-kuaiji-pic3"><img src="../images/kjfwpt-zhuanjia_03.png"/></div>
+                    <p class="main-zhuanjia-bottom-text">####</p>
+                </div>
+                <div class="main-zhuanjia-kuaiji1">
+                	 <img src="../images/→.png"/>
+                </div>
+        </div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!--main-新闻-->
+<div id="main-xinwen">
+	<div class="main-xinwen-box">
+    	<div class="main-title">
+            <h1 class="main-title1">随时随地轻松记账</h1></br>
+            <h6 class="main-title2">Easy to account at anytime and anywhere</h6>
+        </div>
+    	<div class="main-xinwen-top">
+        	<div class="main-xinwen-top-title">
+            	<div class="main-xinwen-top-title-icon"><img src="../images/kjfwpt-xinwen_03.jpg"/></div>
+                <h1 class="main-xinwen-top-title-text">公司动态</h1>
+            </div>
+            <div class="main-xinwen-top-title-xiantiao"></div>
+            <div class="main-xinwen-top-content">
+            	<div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>`
+            </div>
+        </div>
+        <div class="main-xinwen-bottom">
+        	<div class="main-xinwen-top-title">
+            	<div class="main-xinwen-top-title-icon"><img src="../images/kjfwpt-xinwen_03.jpg"/></div>
+                <h1 class="main-xinwen-top-title-text">行业动态</h1>
+            </div>
+            <div class="main-xinwen-top-title-xiantiao"></div>
+            <div class="main-xinwen-top-content">
+            	<div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>
+                <div class="main-xinwen-top-content-text">
+                	<p class="main-xinwen-top-content-text-left"><a href="#">名师公开课　注会考前密训 涨分秘笈 助你轻松考到60+</a></p>
+                    <p class="main-xinwen-top-content-text-right">2018-08-08</p>
+                </div>`
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<div id="footer">
+	<div class="footer-top">
+    	<div class="footer-top-left">
+        	<div class="footer-top-left-logo"><img src="../images/shouye-logo.png"/></div>
+            <div class="footer-top-left-text">
+            	<h3>优账云财税</h3>
+                <h3>jkj521.com</h3>
+            </div>
+        </div>
+        <div class="footer-top-center">
+        	
+            	<ul class="ul-box">
+                	<li class="li-title">财务软件</li>
+                    <li class="li-text"><a href="#">快速注册</a></li>
+                    <li class="li-text"><a href="#">APP下载</a></li>
+                    <li class="li-text"><a href="#">使用帮助</a></li>
+                    <li class="li-text"><a href="#">数据安全</a></li>
+                </ul>
+            	<ul class="ul-box">
+                	<li class="li-title">更多服务</li>
+                    <li class="li-text"><a href="#">会计学院</a></li>
+                    <li class="li-text"><a href="#">财税服务</a></li>
+                    <li class="li-text"><a href="#">会计问答</a></li>
+                    <li class="li-text"><a href="#">会计论坛</a></li>
+                </ul>
+            	<ul class="ul-box">
+                	<li class="li-title">关于我们</li>
+                    <li class="li-text"><a href="#">企业介绍</a></li>
+                    <li class="li-text"><a href="#">联系我们</a></li>
+                    <li class="li-text"><a href="#">公司公益</a></li>
+                    <li class="li-text"><a href="#">商务合作</a></li>
+                </ul>
+            
+        </div>
+        <div class="footer-top-right">
+        	<div class="footer-top-right-top">
+            	<div class="footer-top-right-pic1"><a href="#"><img src="../images/shouye-qq1.png"/></a></div>
+                <div class="footer-top-right-pic1"><a href="#"><img src="../images/shoye-weixin1.png"/></a></div>
+                <div class="footer-top-right-pic1"><a href="#"><img src="../images/shouye-erweima.png"/></a></div>
+            </div>
+            <div class="footer-top-right-bottom">
+            	<p class="footer-top-right-bottom-text">北京U账房信息技术有限公司<br />邮箱：yunzhangfang@jkj521.cn<br />地址：北京市海淀区复兴路47号天行建商务大厦1607室</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+    	
+        <p class="footer-bottom-text">网站链接: &nbsp<a>在线会计</a>    <a>会计学院</a> </p>
+    </div>
+</div>
+
+
+</body>
+</html>

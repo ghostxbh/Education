@@ -1,0 +1,312 @@
+body,html{background:#E9ECEE;}*{margin:0;padding:0;}li{list-style:none;}a{text-decoration:none;}img{border:none;}a:hover {outline: none}
+.new-top{background:red;min-width:1200px;line-height:70px;position:fixed;top:0;width:100%;z-index:99997;border-bottom:1px solid #cacaca;box-sizing:border-box;background:#fff;}.top-div{width:100%;}
+.new-top-content{background:#fff;width:1200px;margin:0 auto;}
+ #header{height:70px;width:1200px;margin: 0 auto;overflow:hidden;}
+ .header-left{padding-left:20px;height:70px;float:left;margin-right:300px;}
+.header-ul-content{position:relative;overflow:hidden;} .header-ul-content li{float:left;}.header-ul-content li>a{color:#000;text-decoration:none;width:auto;padding:0 20px;height:70px;line-height:70px;font-size:17px;display:inline-block;text-align:center;outline:0}
+.move{width:70px;height: 4px;border-top: 4px solid #019afe;box-sizing:border-box;position: absolute;left:0px; top: 52px;transition: left .2s ease-in-out 0s;-webkit-transition: left .2s ease-in-out 0s; -moz-transition: left .2s ease-in-out 0s;-o-transition: left .2s ease-in-out 0s;}
+ .header-ul-content li:nth-child(1):hover~ .move{left: 0px;}
+.header-ul-content li:nth-child(2):hover~ .move{left:90px;width:75px;}
+.header-ul-content li:nth-child(3):hover~ .move{left: 200px;width:75px;}
+.header-ul-content li:nth-child(4):hover~ .move{left: 305px;width:50px;}
+.header-ul-content li:nth-child(5):hover~ .move{left: 380px;width:90px;}
+.header-right{text-align:center;height:30px;width:180px;float:left;margin-left:10px;}
+.header-right a{width:60px;margin-left:10px;border:1px solid #019afe;box-sizing:border-box;height:30px;border-radius:16px;line-height:30px;display:inline-block;font-size:16px;color:#000;font-family:"微软雅黑";}
+.header-right a:hover{border:none;line-height:30px;height:30px;border-radius:16px;background:url('/Onlineducation/style//images/images/jianbian.png') no-repeat 100% 100%;color:#fff;text-decoration: none;}
+.header-right a.active {border:none;background:url('/Onlineducation/style//images/images/jianbian.png') no-repeat 100% 100%;color: #FFF;}
+@keyframes proRotate { 0%   {-webkit-transform: rotateY(90deg) ;}50%  {-webkit-transform: rotateY(180deg);}100% {-webkit-transform:rotateY(360deg);} }
+.mian-ul li img:hover{ -webkit-animation: proRotate 0.5s ease-in-out 100ms alternate none 1;animation: proRotate 0.5s ease-in-out 100ms alternate none 1;}
+.top-div{background-color:#FFF;height:70px;transition-duration:.5s;-webkit-transition-duration:.5s}
+.content3{height:460px;text-align:center;line-height:2;padding-bottom:0px;	background:url('/Onlineducation/style//images/images/45.jpg') no-repeat center;color:#777;font-weight:bold;min-width:1200px}		
+.main-icon{
+	/* height: 460px; */
+    width: 1200px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+		}
+.course-introduce {
+   height:auto;
+    background: #fff;
+    padding: 30px 0 30px 28px;
+    margin-top: 20px;
+}
+.course-introduce ul li {
+    width: 243px;
+   
+}
+ .course-introduce li { 
+    float: left;
+    _display: inline;
+    width: 340px;
+    padding-left: 26px;
+    margin-right: 23px;
+    background: #E8EFF3;
+}
+.course-introduce h4 {
+    height: 39px;
+    padding-top: 24px;
+    font-weight: normal;
+}
+.course-introduce p {
+    line-height: 22px;
+    font-size: 14px;
+    color: #242424;
+    padding: 13px 0 27px 0;
+}
+.course-introduce p em {
+    color: #ff4926;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* 注会--联报课程*/
+ .course-list {
+    background: #fff;
+    margin-top: 20px;
+}
+ .course-list .tit {
+    height: 78px;
+    line-height: 78px;
+    position: relative;
+    text-align: center;
+}
+.course-list .tit h4 {
+    float: left;
+    font-size: 24px;
+    line-height: 78px;
+    color: #127de1;
+    padding-left: 28px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: normal;
+}
+.course-list .tit h4 i {
+    display: block;
+    width: 2px;
+    height: 24px;
+    background: #127de1;
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+
+.course-list .tit li.on {
+    color: #127de1;
+    border-bottom: 2px solid #127de1;
+}
+ .course-list .tit li {
+    position: relative;
+}
+.course-list .tit li {
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 8px;
+    margin: 26px 20px 0;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+.course-list .con {
+    padding: 0 0 0 28px;
+    display: none;
+}
+ .course-list .con li {
+    float: left;
+    _display: inline;
+    height: 238px;
+    overflow: hidden;
+    width: 271px;
+    margin: 0 20px 16px 0;
+}
+ .course-list .con .pic {
+    width: 271px;
+    height: 152px;
+    overflow: hidden;
+}
+ .course-list .con .pic.book {
+    border: 1px solid #f4f7fb;
+    width: 269px;
+    height: 150px;
+}
+.course-list .con .pic img {
+    width: 271px;
+    height: 152px;
+}
+ .course-list .con .pic.book img {
+    width: 98px;
+    height: 136px;
+    display: block;
+    margin: 8px auto 0;
+}
+ .course-list .con .pic img{
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -ms-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition:all .3s ease;
+}
+ .course-list .con .pic:hover img{
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    -ms-transform:scale(1.1,1.1);
+    -o-transform:scale(1.1,1.1);
+    transform:scale(1.1,1.1);
+}
+.course-list .con h4 {
+    height: 36px;
+    line-height: 18px;
+    padding-top: 6px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.course-list .con .price_wrap {
+    height: 44px;
+    line-height: 44px;
+}
+ .course-list .con .price_wrap .price {
+    float: left;
+    line-height: 44px;
+    font-size: 14px;
+    color: #e91313;
+}
+ .course-list .con .price_wrap .home_start {
+    display: block;
+    float: right;
+    width:150px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 5px;
+    padding-left: 22px;
+    font-size: 12px;
+ padding-right:20px;    color: #a5a2a2;
+   /* background: url(/Onlineducation/style/images/images/start2.png) repeat 100% 100%;  */
+}
+.course-list .home_start img{
+   width:10%;
+    height: 19px;
+    float:right;
+    margin-top: 5px;  
+   
+}
+.price_wrap .home_flower{
+	float: right;
+    width:50px;
+}
+.price_wrap .home_flower img{
+    width:40%;
+    height: 19px;
+    float:right;
+    margin-top:10px; 
+    margin-right:50px; 
+   
+}
+ .course-list .more-btn {
+    display: block;
+    width: 1144px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    background: #E8EFF3;
+    margin: 30px auto 54px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ .course-list .more-btn .no-more {
+    display: none;
+}
+.leftFix-nav .more-btn {
+    display: none;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+}
+.leftFix-nav .more-btn i {
+    display: inline-block;
+    width: 15px;
+    height: 8px;
+    background: url(/Onlineducation/style/images/images/list-ico.png) no-repeat 0 -99px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.body_bg03 {
+    width: 100%;
+    background: #e9ecee;
+}
+.leftFix-nav {
+    display: none;
+    width: 83px;
+    background: #fff;
+    position: fixed;
+    top: 250px;
+    left: 50%;
+    margin: 0 0 0 -698px;
+    z-index: 9;
+}
+.msf {
+    font-family: \5FAE\8F6F\96C5\9ED1,\9ED1\4F53;
+}
+.leftFix-nav ul {
+    margin-left: 7px;
+}
+.leftFix-nav li {
+    height: 42px;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}.leftFix-nav li a.on {
+    width: 72px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.leftFix-nav li a.on {
+    text-align: center;
+}
+.leftFix-nav li a:hover .on {
+	display:inline-block;
+}
+.leftFix-nav li a {
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+.leftFix-nav li a.on-show {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    overflow: hidden;
+    left: -7px;
+    top: 0;
+    white-space: nowrap;
+    padding: 0 9px;
+    background: #fff;
+    color: #ffa041;
+    min-width: 60px;
+}
+.leftFix-nav li a:hover .on-show {
+	display:inline-block;
+}
+.leftFix-nav li a.on-show i {
+    display: block;
+    width: 2px;
+    height: 30px;
+    background: #ff982a;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}

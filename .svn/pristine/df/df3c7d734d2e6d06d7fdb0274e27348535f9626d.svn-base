@@ -1,0 +1,544 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>kjfwpt-zhuanjia</title>
+</head>
+<style>
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+body,html{overflow-x:hidden;} 
+
+
+
+
+
+
+#header{
+		height:60px;
+		width:1200px;
+    	margin: 0 auto;
+		overflow:hidden;
+		}
+.header-left{
+		float:left;
+		}
+.logo{
+		float:left;
+		margin-top:0px;
+		}
+
+.header-right{
+		float:right;
+		}
+.nav7{
+	margin-top:0px;
+	width:60px;
+	height:60px;
+	
+	float:right;
+	
+	}
+.nav7 a{
+	color:#333;
+	}
+
+.nav8{
+	width:60px;
+	height:60px;
+	float:right;
+	margin-top:px;
+	background-image:url(../images/jianbian_04_08.jpg);
+	}
+.nav8 a{
+	color:#FFFFFF;
+	}
+
+.denglu{
+	padding-top:20px;
+	font-size:20px;
+	text-align:center;
+	font-family:"微软雅黑";
+	margin:0 auto;
+	
+	}
+.zhuce{
+	font-size:20px;
+	padding-top:20px;
+	text-align:center;
+	font-family:"微软雅黑";
+	margin:0 auto;
+	
+	}
+.header-center{
+	margin-right:50px;
+	padding-top: 20px;
+	float:right;
+	font-family:"微软雅黑";
+	font-size:20px;
+		}
+.nav1{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav1 a{
+	color:#333;
+		}
+.nav1 a:hover{
+	color:#00d2ff;
+		}
+
+
+.nav2{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav2 a{
+	color:#333;
+		}
+.nav2 a:hover{
+	color:#00d2ff;
+		}
+.nav3{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav3 a{
+	color:#333;
+		}
+.nav3 a:hover{
+	color:#00d2ff;
+		}
+.nav4{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav4 a{
+	color:#333;
+		}
+.nav4 a:hover{
+	color:#00d2ff;
+		}
+		
+.nav5{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	}
+.nav5 a{
+	color:#333;
+		}
+.nav5 a:hover{
+	color:#00d2ff;
+		}
+.nav6{float:right;
+	margin-left:22px;
+	margin-right:22px;
+	/*width:100px;
+	height:80px;*/
+	
+	}
+.nav6 a{
+	color:#333;
+		}
+.nav6 a:hover{
+	color:#00d2ff;
+		}
+
+
+
+
+
+
+
+
+#banner{margin: 0 auto;
+		background-color:#CC3032;
+		overflow:hidden;
+		display:block;
+		overflow:hidden;
+		height:460px;
+		width:100%;
+		}
+
+.banner-box img{
+		float:left;
+		width:100%;
+		height:460px;
+		}
+
+
+
+
+
+
+
+
+
+#main{
+	width:1200px;
+	margin:0 auto;
+	height:1200px;
+	
+	}
+.main-Route{
+	font-family:"微软雅黑";
+	font-size:20px;
+	margin-top:30px;
+	color:#666;
+	}
+.main-top{
+	height:350px;
+	margin-top:30px;
+	}
+.main-top a{
+	color:#333;}
+.main-top a:hover{
+	color:#00d2ff;}
+.main-top-left{
+	float:left;
+	width:400px;}
+.main-top-center{
+	float:left;
+	width:400px;}
+.main-top-right{
+	float:right;
+	width:400px;
+	}
+.main-pic-left{
+	float:left;
+	}
+.main-pic-center{
+	text-align:center;
+	}
+.main-pic-right{
+	float:right;
+	}
+.main-text-left{
+	margin-top:10px;
+	float:left;
+	width:300px;
+	margin-left:26px;
+	font-family:"微软雅黑";
+	font-size:20px;}
+.main-text-center{
+	margin-top:10px;
+	float:left;
+	width:300px;
+	margin-left:50px;
+	font-family:"微软雅黑";
+	font-size:20px;}
+.main-text-right{
+	float:left;
+	margin-top:10px;
+	width:300px;
+	margin-left:80px;
+	font-family:"微软雅黑";
+	font-size:20px;}
+
+.main-name{
+	font-family:"微软雅黑";
+	font-size:18px;
+	text-align:center;
+	
+	}
+
+.main-center{
+	margin-top:30px;
+	height:350px;
+	}
+.main-center a{
+	color:#333;}
+.main-center a:hover{
+	color:#00d2ff;}
+.main-bottom{
+	margin-top:30px;
+	height:350px;
+	}
+.main-bottom a{
+	color:#333;}
+.main-bottom a:hover{
+	color:#00d2ff;}
+
+
+
+
+/*footer*/
+#footer{
+		margin-top:50px;
+		height:350px;
+		background-color:#3c3c3c;
+		}
+.footer-top{
+		height:250px;
+		width:1200px;
+		margin:0 auto;
+		}
+.footer-top-left{
+		width:250px;
+		height:250px;
+		float:left;
+		}
+.footer-top-left-logo{
+		margin-left:50px;
+		margin-top:20px;
+		}
+.footer-top-left-text{
+		margin-left:50px;
+		color:#FFFFFF;
+		margin-top:20px;
+		font-size:22px;
+		font-family:"微软雅黑";
+		}
+.footer-top-center{
+		width:600px;
+		height:250px;
+		float:left;
+		}
+.ul-box{
+		text-align:center;
+		width:200px;
+		height:250px;
+		color:#FFFFFF;
+		float:left;	
+		}
+.ul-box a{
+		color:#FFFFFF;
+		}
+.ul-box a:hover{
+		color:#00d2ff;
+		}
+.li-title{
+		margin-top:10px;
+		font-family:"微软雅黑";
+		font-size:24px;
+		line-height:70px;
+		}
+.li-text{font-size:20px;
+		font-family:"微软雅黑";
+		line-height:38px;
+		}
+.footer-top-right{
+		width:350px;
+		height:250px;
+		float:left;
+		}
+.footer-top-right-top{
+		width:350px;
+		height:130px;
+		}
+.footer-top-right-pic1{
+		width:72px;
+		height:72px;
+		float:left;
+		margin-left:30px;
+		margin-top:40px;
+		}
+.footer-top-right-bottom{
+		width:350px;
+		height:100px;
+		}
+.footer-top-right-bottom-text{
+		color:#FFFFFF;
+		font-size:14px;
+		text-align:center;
+		font-family:"微软雅黑";
+		line-height:28px;
+		}
+.footer-bottom{
+		height:70px;
+		width:1200px;
+		margin:0 auto;
+		}
+.footer-bottom-text{
+		text-align:center;
+		color:#fff;
+		font-family:"微软雅黑";
+		}
+.footer-bottom-text a:hover{
+		color:#00d2ff;
+		}
+
+
+
+</style>
+
+<body>
+<!--header-->
+<div id="header">
+        <div class="header-left">
+            <div class="logo"><img src="../images/logo-888.png"/></div>
+            
+        </div>
+        <div class="header-right">
+            <div class="nav8"><p class="zhuce"><a href="#">注册</a></p></div>
+            <div class="nav7"><p class="denglu"><a href="#">登录</a></p></div>
+        </div>
+        <div class="header-center">
+                <div class="nav1"><a href="#">国际商务会计</a></div>
+                <div class="nav2"><a href="#">财税书店</a></div>
+                <div class="nav3"><a href="Webpage/kuaijifuwupingtai.html">会计服务平台</a></div>
+                <div class="nav4"><a href="#">财税学院</a></div>
+                <div class="nav5"><a href="#">财税软件</a></div>
+                <div class="nav6"><a href="../index.html">首页</a></div>
+    	</div>
+</div>
+
+
+
+
+
+
+<!--banner-->
+<div id="banner">
+	<div class="banner-box"><img src="../images/banner.jpg"/></div>
+</div>
+
+
+
+
+
+
+
+<!--main-专家-->
+<div id="main">
+	<div class="main-Route">首页 > 会计服务平台 > 工业会计</div>
+    <div class="main-top">
+    	<div class="main-top-left"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-left"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-left">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+        <div class="main-top-center"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-center"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-center">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+        <div class="main-top-right"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-right"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-right">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+    </div>
+    <div class="main-center">
+    	<div class="main-top-left"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-left"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-left">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+        <div class="main-top-center"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-center"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-center">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+        <div class="main-top-right"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-right"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-right">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+    </div>
+    <div class="main-bottom">
+    	<div class="main-top-left"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-left"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-left">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+        <div class="main-top-center"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-center"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-center">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+        <div class="main-top-right"><a href="kjfwpt-zhuanjiajieshao.html">
+        	<div class="main-pic-right"><img src="../images/kjfwpt-gongye.jpg"/></div>
+            <div class="main-text-right">
+            	<p class="main-name">###</p>
+                <p class="main-jieshao">会计专家研究院，也就是会计服务平台各级页面组成。</p>
+            </div></a>
+        </div>
+    </div>
+</div>
+
+
+
+<!--footer-->
+<div id="footer">
+	<div class="footer-top">
+    	<div class="footer-top-left">
+        	<div class="footer-top-left-logo"><img src="../images/shouye-logo.png"/></div>
+            <div class="footer-top-left-text">
+            	<h3>优账云财税</h3>
+                <h3>jkj521.com</h3>
+            </div>
+        </div>
+        <div class="footer-top-center">
+        	
+            	<ul class="ul-box">
+                	<li class="li-title">财务软件</li>
+                    <li class="li-text"><a href="#">快速注册</a></li>
+                    <li class="li-text"><a href="#">APP下载</a></li>
+                    <li class="li-text"><a href="#">使用帮助</a></li>
+                    <li class="li-text"><a href="#">数据安全</a></li>
+                </ul>
+            	<ul class="ul-box">
+                	<li class="li-title">更多服务</li>
+                    <li class="li-text"><a href="#">会计学院</a></li>
+                    <li class="li-text"><a href="#">财税服务</a></li>
+                    <li class="li-text"><a href="#">会计问答</a></li>
+                    <li class="li-text"><a href="#">会计论坛</a></li>
+                </ul>
+            	<ul class="ul-box">
+                	<li class="li-title">关于我们</li>
+                    <li class="li-text"><a href="#">企业介绍</a></li>
+                    <li class="li-text"><a href="#">联系我们</a></li>
+                    <li class="li-text"><a href="#">公司公益</a></li>
+                    <li class="li-text"><a href="#">商务合作</a></li>
+                </ul>
+            
+        </div>
+        <div class="footer-top-right">
+        	<div class="footer-top-right-top">
+            	<div class="footer-top-right-pic1"><a href="#"><img src="../images/shouye-qq1.png"/></a></div>
+                <div class="footer-top-right-pic1"><a href="#"><img src="../images/shouye-erweima.png"/></a></div>
+                <div class="footer-top-right-pic1"><a href="#"><img src="../images/shouye-erweima.png"/></a></div>
+            </div>
+            <div class="footer-top-right-bottom">
+            	<p class="footer-top-right-bottom-text">北京U账房信息技术有限公司<br />邮箱：yunzhangfang@jkj521.cn<br />地址：北京市海淀区复兴路47号天行建商务大厦1607室</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="footer-bottom-text">网站链接: &nbsp<a>在线会计</a>    <a>会计学院</a> </p>
+    </div>
+</div>
+
+
+
+</body>
+</html>

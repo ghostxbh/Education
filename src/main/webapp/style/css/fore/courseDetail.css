@@ -1,0 +1,19 @@
+body {padding-top: 50px;padding-bottom: 40px;color: #5a5a5a;}*{margin:0;padding:0;}li{list-style:none;}a{text-decoration:none;}img{border:none;}a:hover {outline: none}
+.new-top{background:red;min-width:1200px;line-height:70px;position:fixed;top:0;width:100%;z-index:99997;border-bottom:1px solid #cacaca;box-sizing:border-box;background:#fff;}.top-div{width:100%;}
+.new-top-content{background:#fff;width:1200px;margin:0 auto;}
+ #header{height:70px;width:1200px;margin: 0 auto;overflow:hidden;}
+ .header-left{padding-left:20px;height:70px;float:left;margin-right:300px;}
+.header-ul-content{position:relative;overflow:hidden;} .header-ul-content li{float:left;}.header-ul-content li>a{color:#000;text-decoration:none;width:auto;padding:0 20px;height:70px;line-height:70px;font-size:17px;display:inline-block;text-align:center;outline:0}
+.move{width:70px;height: 4px;border-top: 4px solid #019afe;box-sizing:border-box;position: absolute;left:0px; top: 52px;transition: left .2s ease-in-out 0s;-webkit-transition: left .2s ease-in-out 0s; -moz-transition: left .2s ease-in-out 0s;-o-transition: left .2s ease-in-out 0s;}
+ .header-ul-content li:nth-child(1):hover~ .move{left: 0px;}
+.header-ul-content li:nth-child(2):hover~ .move{left:90px;width:75px;}
+.header-ul-content li:nth-child(3):hover~ .move{left: 200px;width:75px;}
+.header-ul-content li:nth-child(4):hover~ .move{left: 305px;width:50px;}
+.header-ul-content li:nth-child(5):hover~ .move{left: 380px;width:90px;}
+.header-right{text-align:center;height:30px;width:180px;float:left;margin-left:10px;}
+.header-right a{width:60px;margin-left:10px;border:1px solid #019afe;box-sizing:border-box;height:30px;border-radius:16px;line-height:30px;display:inline-block;font-size:16px;color:#000;font-family:"微软雅黑";}
+.header-right a:hover{border:none;line-height:30px;height:30px;border-radius:16px;background:url('/Onlineducation/style//images/images/jianbian.png') no-repeat 100% 100%;color:#fff;text-decoration: none;}
+.header-right a.active {border:none;background:url('/Onlineducation/style//images/images/jianbian.png') no-repeat 100% 100%;color: #FFF;}
+@keyframes proRotate { 0%   {-webkit-transform: rotateY(90deg) ;}50%  {-webkit-transform: rotateY(180deg);}100% {-webkit-transform:rotateY(360deg);} }
+.mian-ul li img:hover{ -webkit-animation: proRotate 0.5s ease-in-out 100ms alternate none 1;animation: proRotate 0.5s ease-in-out 100ms alternate none 1;}
+.top-div{background-color:#FFF;height:70px;transition-duration:.5s;-webkit-transition-duration:.5s}

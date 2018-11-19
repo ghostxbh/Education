@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>老会计手把手做账之会计基础</title>
+
+<link href="/Onlineducation/style/css/detail.css" rel="stylesheet">
+<script src="/Onlineducation/style/js/jquery.min.js"></script>
+<link href="/Onlineducation/style/images/favicon.ico"
+	rel="SHORTCUT ICON">
+<meta name="Keywords"
+	content="优账云 优账云财税 优账云财务软件 免费财务软件 财务软件免费版 记账软件 财务软件" />
+<meta name="Description"
+	content="优账云是遥遥领先的专业财务软件，承诺所有功能永久免费！更有众多财税服务及会计精品课程、财税书籍、专家服务，帮助会计人员提升。" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1366" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body>
+<script>
+	   $(function(){
+		   $("#top-header").load('header.html');  
+	   })
+   </script>
+<div id="top-header"></div>
+
+
+
+
+
+	<!--banner-->
+	<div class="content3">
+		<div class="content-con">
+			<div class="imgtext-course imgtext-course--free">
+				<!--  视频-->
+				<div class="img-left--wrap">
+					<img class="img-left"
+						src="/Onlineducation/style/images/images/bookk14.jpg"
+						alt="注会--联报课程-VIP签约特训计划" width="510" height="286">
+					<div id="js-banner-cover" class="banner-cover"
+						style="display: block;">
+						<div class="banner-cover-video">
+							<a class="banner-cover-play js-expr-btn"
+								href="/Onlineducation/learn/getSections?cid=1"> <i
+								class="icon-play"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--视频右侧  -->
+				<div class="information fr">
+					<p class="title1" style="padding-left: 30px; font-size: 23px;">老会计手把手做账之会计基础
+					</p>
+					<p class="title1" style="font-size: 14px;">
+						本视频转载自中华会计网校,网易云课堂,腾讯课堂</p>
+					<p class="title1" style="font-size: 15px;">
+						2019年初级会计职称考试签约辅导，助你通过职称考试！</p>
+					<p class="title1" style="font-size: 15px;">
+						<a href="/Onlineducation/learn/getSections?cid=1"
+							style="color: #ff6029;">金九银十季，充电正当时>></a>
+					</p>
+					<p class="stat">
+						<img src="/Onlineducation/style/images/images/start2.png"
+							class="start1" /> <img
+							src="/Onlineducation/style/images/images/start2.png"
+							class="start1" /> <img
+							src="/Onlineducation/style/images/images/start2.png"
+							class="start1" /> <img
+							src="/Onlineducation/style/images/images/start2.png"
+							class="start1" /> <img
+							src="/Onlineducation/style/images/images/start2.png"
+							class="start1" />
+					</p>
+					<div class="btn_wrap clearfix">
+						<a href="/Onlineducation/learn/getSections?cid=1" class="buy fl">立即播放</a>
+					</div>
+				</div>
+
+				<div id="js-partner" class="course-partner"></div>
+
+			</div>
+
+
+
+			<!-- 课程 -->
+			<div class="layout clearfix msf">
+				<div class="main_left fl">
+
+					<div class="title">
+						<h3>课程内容</h3>
+						<div class="more"></div>
+					</div>
+					<div class="course_con">
+						<table cellspacing="0" cellpadding="0" class="biaoge">
+							<tbody>
+								<tr>
+									<td class="t1" width="170">阶段课程</td>
+									<td class="t1" width="250">授课名师</td>
+									<td class="t1" width="180">课程名称</td>
+								</tr>
+								<tr>
+									<td class="t2">视频授课</td>
+									<td>网易云课堂课堂--9989会计实战学院出品</td>
+									<td>老会计手把手做账之会计基础</td>
+								</tr>
+								<tr>
+									<td colspan="4" style="text-align: left; padding-left: 145px;">课程章节:</td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"> <img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" />课时01
+											前言
+									</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" />课时02
+											总结 (会计概述,会计基本假设/会计基础)</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" />课时03
+											会计要素与会计科目</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时04
+											会计等式与复式记账</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时05
+											会计凭证</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时06
+											会计账簿</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时07
+											账务处理程序</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时08
+											财产清查</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时09
+											财务会计报告</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时10
+											会计档案</span></td>
+								</tr>
+								<tr>
+									<td colspan="4"><span class="subject"><img
+											src="/Onlineducation/style/images/images/project.png"
+											style="width: 25px; height: 25px; margin-right: 8px;" /> 课时11
+											主要经济业务事项账务处理</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="title">
+						<h3>视频课程详情介绍</h3>
+					</div>
+					<div class="face">
+						<div class="pic">
+							<br /> 从事会计工作，不甘成为一名小出纳，想要升职加薪，急待充电？<br />
+
+							想转行到会计行业，担心自己起点低，进不了好公司、拿不了高工资？<br />
+
+							已经工作多年，总想让自己多些技能，得到Boss赏识，让自己能够适时脱颖而出？<br />
+
+							错过了18年初级会计职称，不想再错过2019年？<br /> <br /> 大家的需求就是我们前进的动力！<br /> <br />
+							Q：初级会计职称的报考要求？<br /> A：必须具备高中毕业以上学历，建议具有会计基础。<br /> <br />
+							Q：为什么要考初级会计职称？<br />
+
+							A：财务岗是公认的职业寿命长，发展空间大的优质职位。在会计之路上，你需要通过更多经验的积累或考取更高的证书，来更快获得更高的薪酬和职位。<br />
+
+							<br /> Q：拿到初级会计职称证书之后，我能找到什么工作？<br />
+
+							A：初级会计职称即助理会计师。获得此证书即说明你已掌握了一般的财务会计基础理论和专业知识；熟悉并能正确执行有关的财经方针、政策和财务会计法规、制度；能担负某些方面或岗位的财务会计工作。职称越高，机会越多。
+
+							<br /> Q：网络课程如何确保我的学习效果？<br />
+
+							A：网络在线课程的最大特点在于五个任何，即任何人、任何时间、任何地点、任何章节开始、学习任何课程。通过网络学习可以根据自己的需求，利用自己可以使用的时间，在自己想学的地点，反复去学习自己想学的章节和课程。从而达到了更轻松，更好的学习效果。
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+			<!-- 课程推荐 -->
+			<div class="section-postscript section--recommend">
+				<div class="inner-center">
+					<h3 class="section-tt">老师还为你推荐了以下几门课程</h3>
+					<div class="section-bd course-card-list-single-wrap">
+
+						<ul class="course-card-list" auto-test="">
+							<li class="course-card-item" data-report-position="1"><a
+								href="javascript:;" target="_blank" class="item-img-link"
+								cors-name="course"> <img
+									src="/Onlineducation/style/images/images/kecengone.jpg"
+									alt="财税精英孵化训练营" title="财税精英孵化训练营" class="item-img" width="220"
+									height="124">
+							</a>
+								<h4 class="item-tt">
+									<a href="javascript:;" target="_blank" class="item-tt-link"
+										title="财税精英孵化训练营" cors-name="course">财税精英孵化训练营</a>
+								</h4>
+								<div class="item-line item-line--bottom">
+									<span class="line-cell item-price">¥899.00</span> <i
+										class="icon-can-try"></i> <span
+										class="line-cell item-user item-user--right"> 161人购买 </span>
+								</div></li>
+							<li class="course-card-item" data-report-position="2"><a
+								href="javascript:;" target="_blank" class="item-img-link"
+								cors-name="course"> <img
+									src="/Onlineducation/style/images/images/kecengtwo.png"
+									alt="一般纳税人全盘账精英孵化班" title="一般纳税人全盘账精英孵化班" class="item-img"
+									width="220" height="124">
+							</a>
+								<h4 class="item-tt">
+									<a href="javascript:;" target="_blank" class="item-tt-link"
+										title="一般纳税人全盘账精英孵化班" cors-name="course">一般纳税人全盘账精英孵化班</a>
+								</h4>
+								<div class="item-line item-line--bottom">
+									<span class="line-cell item-price">¥498.00</span> <i
+										class="icon-can-try"></i> <span
+										class="line-cell item-user item-user--right"> 765人购买 </span>
+								</div></li>
+
+							<li class="course-card-item" data-report-position="3"><a
+								href="javascript:;" target="_blank" class="item-img-link"
+								cors-name="course"> <img
+									src="/Onlineducation/style/images/images/kecengthree.jpg"
+									alt="中级会计实务习题精讲" title="中级会计实务习题精讲" class="item-img"
+									width="220" height="124">
+							</a>
+								<h4 class="item-tt">
+									<a href="javascript:;" target="_blank" class="item-tt-link"
+										title="中级会计实务习题精讲" cors-name="course">中级会计实务习题精讲</a>
+								</h4>
+								<div class="item-line item-line--bottom">
+									<span class="line-cell item-price">¥66.00</span> <i
+										class="icon-can-try"></i> <span
+										class="line-cell item-user item-user--right"> 347人购买 </span>
+								</div></li>
+							<li class="course-card-item" data-report-position="4"><a
+								href="javascript:;" target="_blank" class="item-img-link"
+								cors-name="course"> <img
+									src="/Onlineducation/style/images/images/kecengfour.jpg"
+									alt="中级财务管理习题精讲" title="中级财务管理习题精讲" class="item-img"
+									width="220" height="124">
+							</a>
+								<h4 class="item-tt">
+									<a href="javascript:;" target="_blank" class="item-tt-link"
+										title="中级财务管理习题精讲"
+										report-tdw="action=Coursecard_Coursesname-clk&amp;ver1=329671&amp;ver3=1.4"
+										cors-name="course">中级财务管理习题精讲</a>
+								</h4>
+								<div class="item-line item-line--bottom">
+									<span class="line-cell item-price">¥66.00</span> <i
+										class="icon-can-try"></i> <span
+										class="line-cell item-user item-user--right"> 225人购买 </span>
+								</div></li>
+							<li class="course-card-item" data-report-position="5"><a
+								href="javascript:;" target="_blank" class="item-img-link"
+								cors-name="course"> <img
+									src="/Onlineducation/style/images/images/kecengfive.jpg"
+									alt="中级经济法习题精讲" title="中级经济法习题精讲" class="item-img" width="220"
+									height="124">
+							</a>
+								<h4 class="item-tt">
+									<a href="javacsript:;" target="_blank" class="item-tt-link"
+										title="中级经济法习题精讲" cors-name="course">中级经济法习题精讲</a>
+								</h4>
+								<div class="item-line item-line--bottom">
+									<span class="line-cell item-price">¥66.00</span> <i
+										class="icon-can-try"></i> <span
+										class="line-cell item-user item-user--right"> 237人购买 </span>
+								</div></li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h3 style="line-height: 70px; color: #7295DD; padding-bottom: 10px;">
+			<a href="http://www.jkj521.cn/AccountingOnline/" target="_blank">财税软件,专注财务软件管理,助力企业快速做账,提高工作效率,摆脱繁琐报表,轻松解决财务人难题,适用行业广泛.</a>
+		</h3>
+	</div>
+
+	<div class="footer">
+		<div class="footer-content">
+			<p>版权所有：北京云账房信息技术有限公司 北京市海淀区中关村大街18号11层1121-13 Copyright 云账房
+				京ICP备17028603号</p>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
