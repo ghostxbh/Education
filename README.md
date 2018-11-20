@@ -1,7 +1,7 @@
 # Onlineducation
 a little project about online education platform（base in ssm）在线教育平台（ssm开发）
 #
-####技术实现
+#### 技术实现
 后端技术：
 Spring
 SpringMVC
