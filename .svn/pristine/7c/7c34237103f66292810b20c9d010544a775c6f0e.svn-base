@@ -1,9 +1,0 @@
-# 七牛密钥
-qiniu_ak = 1IEJVswqvJJRWLBTNgm-uVehdyiNCUkTlJCKiCXW
-qiniu_sk = wYTWu3p7vT4ar9H7h5DtVerGuqFwyfWzAQiutVE2
-
-#书店资源储存中心
-bookstore_zone = bookstore-resources
-
-#七牛存储空间域名
-bookstore_domain = http://bookstore.uzykj.com
